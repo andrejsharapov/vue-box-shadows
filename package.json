@@ -46,5 +46,18 @@
   "description": "Vue.js wrapper for Box-shadow.css to build simple and awesome shadows with use vue.",
   "main": "main.js",
   "author": "Andrej Sharapov",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrejsharapov/vue-box-shadows.git"
+  },
+  "keywords": [
+    "vue",
+    "css",
+    "box-shadow"
+  ],
+  "bugs": {
+    "url": "https://github.com/andrejsharapov/vue-box-shadows/issues"
+  },
+  "homepage": "https://github.com/andrejsharapov/vue-box-shadows#readme"
 }
