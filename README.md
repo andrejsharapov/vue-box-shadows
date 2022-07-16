@@ -12,10 +12,10 @@ Installing via npm
 npm i vue-box-shadows
 ```
 
-or discord
+or yarn
 
 ```bash
-discord add vue-box-shadows
+yarn add vue-box-shadows
 ```
 
 ## Usage
