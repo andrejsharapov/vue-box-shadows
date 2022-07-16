@@ -1,7 +1,7 @@
 {
-  "name": "vue-box-shadows-css",
-  "version": "0.1.0",
-  "private": true,
+  "name": "vue-box-shadows",
+  "version": "1.0.0",
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -18,6 +18,10 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
+    "pug": "^3.0.2",
+    "pug-plain-loader": "^1.1.0",
+    "sass": "^1.53.0",
+    "sass-loader": "^10",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
@@ -38,5 +42,9 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "description": "Vue.js wrapper for Box-shadow.css to build simple and awesome shadows with use vue.",
+  "main": "main.js",
+  "author": "Andrej Sharapov",
+  "license": "MIT"
 }
