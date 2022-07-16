@@ -2,7 +2,7 @@
 
 1. First of all, fork and clone this repository;
 2. Clone your new repository to your system;
-3. Create a new branch (view [WIKI][1]);
+3. Create a new branch;
 4. Commit changes and push the new branch;
 5. Open and submit a PR.
 
