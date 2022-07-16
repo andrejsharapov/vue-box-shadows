@@ -49,7 +49,7 @@ Vue.use(boxShadows, {
 
 ### Examples
 
-View the collection of shadows on the repository site.
+View the collection of shadows on the repository site.  
 View an example of using the directive on CodePen.
 
 ### Browser compatibility
