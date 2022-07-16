@@ -1,6 +1,6 @@
 import Vue from "vue";
 import App from "./App.vue";
-import boxShadows from "/src/assets/index.js";
+import boxShadows from "./index";
 
 Vue.use(boxShadows, {
   // useClass: true,

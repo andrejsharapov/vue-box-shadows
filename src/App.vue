@@ -6,11 +6,11 @@
 <script>
 import useBoxShadows from "./components/Example.vue";
 // import Vue from "vue";
-// import boxShadows from "/src/assets/index.js";
+// import boxShadows from "./index.js";
 
 // Vue.use(boxShadows, {
-//   useClass: true,
-//   shadowBaseCustom: "",
+//   // useClass: false,
+//   // shadowBaseCustom: "",
 // });
 
 export default {
