@@ -2,7 +2,7 @@
 
 Vue.js wrapper for [Box-shadow.css][box-shadows-css] to build simple and awesome shadows with use vue.
 
-![discord][discord-image]
+[![discord][discord-image]][discord]
 
 ## Install
 
