@@ -1,23 +1,44 @@
-<template lang="pug">
-.box-shadow
-  label Columns of grid: {{ grid }}
-    input(v-model="gridVal" min="2" max="12" type="range" style="cursor: pointer")
-
-  .box-shadow__container
-    h1.box-shadow__container__message(v-html='msg')
-    .box-shadow__container__list(:style="gridTemplateColumns")
-      .list-item.pa-4 without directive 
-      .list-item.pa-4(v-box-shadow) directive without num (added base state)
-      .list-item.pa-4(v-box-shadow='num') directive used `num` from data: {{num}}
-      .list-item.pa-4(v-box-shadow='num' style="color: red;") custom style='color: red;' width directive
-      
-    h3.box-shadow__container__message Directive used v-for (index)
-    .box-shadow__container__list(:style="gridTemplateColumns")
-      .list-item.pa-4(
-        v-for="(item, index) in 4"
-        :key="index"
-        v-box-shadow='index'
-      ) {{ index }}
+<template>
+  <div class="box-shadow">
+    <label>
+      Columns of grid: {{ grid }}
+      <input
+        v-model="gridVal"
+        min="2"
+        max="12"
+        type="range"
+        style="cursor: pointer"
+      />
+    </label>
+    <div class="box-shadow__container">
+      <h1 class="box-shadow__container__message" v-html="msg"></h1>
+      <div class="box-shadow__container__list" :style="gridTemplateColumns">
+        <div class="list-item pa-4">without directive</div>
+        <div class="list-item pa-4" v-box-shadow>
+          directive without num (added base state)
+        </div>
+        <div class="list-item pa-4" v-box-shadow="num">
+          directive used `num` from data: {{ num }}
+        </div>
+        <div class="list-item pa-4" v-box-shadow="num" style="color: red">
+          custom style='color: red;' width directive
+        </div>
+      </div>
+      <h3 class="box-shadow__container__message">
+        Directive used v-for (index)
+      </h3>
+      <div class="box-shadow__container__list" :style="gridTemplateColumns">
+        <div
+          class="list-item pa-4"
+          v-for="(item, index) in 4"
+          :key="index"
+          v-box-shadow="index"
+        >
+          {{ index }}
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>

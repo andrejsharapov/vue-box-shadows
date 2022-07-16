@@ -1,6 +1,10 @@
-<template lang="pug">
-  #app
-    useBoxShadows.text-center(msg="Box-shadows.css <strong>for <span style='color: #42d392'>Vue</span></strong>")
+<template>
+  <div id="app">
+    <useBoxShadows
+      class="text-center"
+      msg="Box-shadows.css <strong>for <span style='color: #42d392'>Vue</span></strong>"
+    />
+  </div>
 </template>
 
 <script>
