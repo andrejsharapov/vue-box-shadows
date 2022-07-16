@@ -49,7 +49,7 @@ Vue.use(boxShadows, {
 
 ### Examples
 
-View the collection of shadows on the repository site.  
+View the collection of shadows on the repository [site][collection].  
 View an example of using the directive on CodePen.
 
 ### Browser compatibility
@@ -69,6 +69,7 @@ vue-box-shadows is licensed under the MIT license. You are free to use, modify a
 </p>
 
 [box-shadows-css]: https://github.com/madeas/box-shadows.css
+[collection]: https://madeas.github.io/box-shadows/
 [caniuse]: https://caniuse.com/?search=box-shadow
 [docs]: https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow
 [contributing]: https://github.com/andrejsharapov/vue-box-shadows/blob/master/CONTRIBUTING.md
