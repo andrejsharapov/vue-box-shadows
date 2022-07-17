@@ -75,8 +75,12 @@ If you find a bug and would like to [report it][bug-report], please make sure th
 
 vue-box-shadows is licensed under the MIT license. You are free to use, modify and distribute this software, as long as the copyright header is left intact.
 
+---
+
+<a href="#install">Install</a> | <a href="#usage">Usage</a> | <a href="#options">Options</a>
+
 <p align="right">
-  <a href="#vue-box-shadows">To top</a>
+<a href="#vue-box-shadows">Return to top</a>
 </p>
 
 [box-shadows-css]: https://github.com/madeas/box-shadows.css
