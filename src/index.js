@@ -60,8 +60,6 @@ const VueBoxShadow = {
         styleTag.appendChild(window.document.createTextNode(rule));
         window.document.head.appendChild(styleTag);
       }
-    } else {
-      //
     }
 
     Vue.directive("box-shadow", {
