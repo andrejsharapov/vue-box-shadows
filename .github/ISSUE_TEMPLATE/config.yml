@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Other issues
+    url: https://github.com/andrejsharapov/vue-box-shadows/issues/new
+    about: Please use New issues for other issues and asking questions.
