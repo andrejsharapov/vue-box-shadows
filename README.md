@@ -69,7 +69,7 @@ Feedback, bug reports, and pull requests are welcome. Read the detailed informat
 > **Warning** `Bug reporting and testing`  
 > The package is currently under development and bug fixes. More about [testing][testing].
 
-If you find a bug and would like to [report it][bug-report], please check that the request does not exist in the [issue list][bugs].
+If you find a bug and would like to [report it][bug-report], please make sure the request is not on the [list of known issues][bugs].
 
 ### License
 
