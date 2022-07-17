@@ -2,10 +2,11 @@ import { baseShadow as base, listShadows } from "./shadows";
 
 const currentValue = "vBoxShadowValue";
 const baseBoxShadow = (el) => {
-  if (!el) {
+  if (el == undefined) {
     el = base;
   }
 
+  // return "0 1.85em 2.5em 0 rgba(38, 39, 44, 0.2)";
   return `${el?.inset ? "inset" : ""} ${el?.offsetX} ${el?.offsetY} ${
     el?.blur
   } ${el?.spread} rgba(${el?.color}/${el?.opacity}%)
@@ -74,7 +75,7 @@ const VueBoxShadow = {
       },
       inserted: (el, bindings) => numShadows(el, bindings),
       updated: (el, bindings) => numShadows(el, bindings),
-      // componentUpdated: (el, bindings) => numShadows(el, bindings),
+      componentUpdated: (el, bindings) => numShadows(el, bindings),
     });
   },
 };
