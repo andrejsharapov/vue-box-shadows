@@ -63,7 +63,7 @@ Vue.use(boxShadows, {
 ### Examples
 
 View the collection of shadows on the repository [site][collection].  
-View an example of using the directive on CodePen. :red_circle:
+View an example of using the directive on CodePen. :yellow_circle:
 
 ### Browser compatibility
 
