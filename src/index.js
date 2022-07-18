@@ -2,18 +2,22 @@ import { baseShadow as base, listShadows } from "./shadows";
 
 const currentValue = "vBoxShadowValue";
 const baseBoxShadow = (el) => {
-  if (el == undefined) {
+  if (!el) {
+    return "none";
+  }
+
+  if (el === undefined) {
     el = base;
   }
 
-  // return "0 1.85em 2.5em 0 rgba(38, 39, 44, 0.2)";
-  return `${el?.inset ? "inset" : ""} ${el?.offsetX} ${el?.offsetY} ${
-    el?.blur
-  } ${el?.spread} rgba(${el?.color}/${el?.opacity}%)
-  `;
+  if (el !== undefined) {
+    return `${el.inset ? "inset" : ""} ${el.offsetX} ${el.offsetY} ${el.blur} ${
+      el.spread
+    } rgba(${el.color}/${el.opacity}%)`;
+  }
 };
 
-const numShadows = function (el, bindings) {
+const numShadows = (el, bindings) => {
   let num = parseInt(bindings.value);
 
   if (isNaN(num)) {
