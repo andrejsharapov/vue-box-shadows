@@ -2,9 +2,9 @@ import { baseShadow as base, listShadows } from "./shadows";
 
 const currentValue = "vBoxShadowValue";
 const baseBoxShadow = (el) => {
-  if (!el) {
-    return "none";
-  }
+  // if (!el) {
+  //   return "none";
+  // }
 
   if (el === undefined) {
     el = base;
@@ -67,7 +67,6 @@ const VueBoxShadow = {
     }
 
     Vue.directive("box-shadow", {
-      currentValue: 0,
       bind(el) {
         if (!options.useClass) {
           el.style.cssText += styles;

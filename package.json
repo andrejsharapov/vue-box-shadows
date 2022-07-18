@@ -40,7 +40,7 @@
     "not dead"
   ],
   "description": "Vue.js wrapper for Box-shadow.css to build simple and awesome shadows with use vue.",
-  "main": "src/main.js",
+  "main": "src/index.js",
   "author": "Andrej Sharapov",
   "license": "MIT",
   "repository": {
