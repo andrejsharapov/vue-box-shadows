@@ -30,7 +30,7 @@
       <div class="box-shadow__container__list" :style="gridTemplateColumns">
         <div
           class="list-item pa-4"
-          v-for="(item, index) in 4"
+          v-for="(item, index) in 65"
           :key="index"
           v-box-shadow="index"
         >
