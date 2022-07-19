@@ -32,25 +32,68 @@ or yarn
 yarn add vue-box-shadows
 ```
 
-## Usage
+## How to use
 
 To create a basic shadow element with minimal configuration, write the following:
 
 ```html
 <div v-box-shadow>
-  Properties are supported by all modern browsers. You can find out about
-  browser support for earlier versions on the Can I Use site.
+  Add beautiful shadow effects to your project without thinking about CSS.
+  Properties are supported by all modern browsers.
 </div>
 ```
 
 ```js
 import Vue from "vue";
-import boxShadows from "vue-box-shadows";
+import vueBoxShadows from "vue-box-shadows";
 
-Vue.use(boxShadows, {
+Vue.use(vueBoxShadows, {
   // options
 });
 ```
+
+### Nuxt.js: Global Registration
+
+Create plugin `/plugins/vue-box-shadows.js`
+
+```js
+import Vue from "vue";
+import vueBoxShadows from "vue-box-shadows";
+
+Vue.use(vueBoxShadows);
+```
+
+Add to `nuxt.config.js`
+
+```js
+export default {
+  plugins: [{ src: "~/plugins/vue-box-shadows" }],
+};
+```
+
+Usage in `index.vue`
+
+```js
+<template>
+   <div
+      v-for="(item, index) in items"
+      :key="index"
+      v-box-shadow="item"
+    >
+      {{ item }}
+    </div>
+</template>
+
+<script>
+  export default {
+    data: () => ({
+      items: [2, 4, 2],
+    }),
+  };
+</script>
+```
+
+Done!
 
 ## Options
 
@@ -85,7 +128,7 @@ vue-box-shadows is licensed under the MIT license. You are free to use, modify a
 
 ---
 
-<a href="#install">Install</a> | <a href="#usage">Usage</a> | <a href="#options">Options</a>
+<a href="#install">Install</a> | <a href="#how-to-use">Usage</a> | <a href="#options">Options</a>
 
 <p align="right">
 <a href="#vue-box-shadows">Return to top</a>
