@@ -100,10 +100,10 @@ Done!
 
 ## Options
 
-| Option           | Type    | Default | Description                                                          |
-| ---------------- | ------- | ------- | -------------------------------------------------------------------- |
-| useClass         | Boolean | false   | Set to `true` in order to import styles into `<head>` automatically. |
-| shadowBaseCustom | String  | ``      | Set a value for [`box-shadow`][docs] to change the default property. |
+| Option           | Type    | Default                               | Description                                                          |
+| ---------------- | ------- | ------------------------------------- | -------------------------------------------------------------------- |
+| useClass         | Boolean | false                                 | Set to `true` in order to import styles into `<head>` automatically. |
+| shadowBaseCustom | String  | "0 0.125rem 0.5rem 0 rgb(0 0 0 / 8%)" | Set a value for [`box-shadow`][docs] to change the default property. |
 
 ---
 
