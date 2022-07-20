@@ -17,7 +17,7 @@ const baseBoxShadow = (el) => {
 
     const getColor = (el) => {
       if (el.color !== "transparent") {
-        return "rgba(" + el.color + "/" + el.opacity + "%)";
+        return " rgb(" + el.color + " / " + el.opacity + "%)";
       } else {
         return "transparent";
       }
