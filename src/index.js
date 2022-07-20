@@ -7,9 +7,50 @@ const baseBoxShadow = (el) => {
   }
 
   if (el !== undefined) {
-    return `${el.inset ? "inset" : ""} ${el.offsetX} ${el.offsetY} ${el.blur} ${
-      el.spread
-    } rgba(${el.color}/${el.opacity}%)`;
+    const isInset = (el) => {
+      if (isNaN(el.inset) || el.inset === false) {
+        return "";
+      } else {
+        return "inset ";
+      }
+    };
+
+    const getColor = (el) => {
+      if (el.color !== "transparent") {
+        return "rgba(" + el.color + "/" + el.opacity + "%)";
+      } else {
+        return "transparent";
+      }
+    };
+
+    const shadow = (el) => {
+      return (
+        isInset(el) +
+        el.offsetX +
+        " " +
+        el.offsetY +
+        " " +
+        el.blur +
+        " " +
+        el.spread +
+        " " +
+        getColor(el)
+      );
+    };
+
+    if (el.multiple) {
+      const one = el.multiple[0];
+      const two = el.multiple[1];
+      const three = el.multiple[2];
+
+      if (three === undefined) {
+        return shadow(one) + "," + shadow(two);
+      } else {
+        return shadow(one) + "," + shadow(two) + "," + shadow(three);
+      }
+    } else {
+      return shadow(el);
+    }
   }
 };
 
