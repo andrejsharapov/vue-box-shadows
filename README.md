@@ -7,6 +7,7 @@ Vue.js wrapper for [Box-shadow.css][bsh-repo] to build simple and awesome shadow
 [![discord][discord-img]][discord]
 [![GitHub contributors][contributors-img]][contributors]
 [![npm][npm-img]][npm]
+[![download][download-img]][download]
 [![GitHub issues][issues-img]][issues]
 [![GitHub license][license-img]][license]
 
@@ -155,6 +156,8 @@ vue-box-shadows is licensed under the MIT license. You are free to use, modify a
 
 [npm]: https://www.npmjs.com/package/vue-box-shadows
 [npm-img]: https://img.shields.io/npm/v/vue-box-shadows?color=c53635
+[download]: https://npm-stat.com/charts.html?package=vue-box-shadows
+[download-img]: https://img.shields.io/npm/dm/vue-box-shadows.svg
 [license]: https://github.com/andrejsharapov/vue-box-shadows/blob/master/LICENSE
 [license-img]: https://img.shields.io/github/license/andrejsharapov/vue-box-shadows.svg
 [issues]: https://github.com/andrejsharapov/vue-box-shadows/issues/
