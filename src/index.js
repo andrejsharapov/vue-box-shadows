@@ -44,9 +44,9 @@ const baseBoxShadow = (el) => {
       const three = el.multiple[2];
 
       if (three === undefined) {
-        return shadow(one) + "," + shadow(two);
+        return shadow(one) + ", " + shadow(two);
       } else {
-        return shadow(one) + "," + shadow(two) + "," + shadow(three);
+        return shadow(one) + ", " + shadow(two) + ", " + shadow(three);
       }
     } else {
       return shadow(el);
