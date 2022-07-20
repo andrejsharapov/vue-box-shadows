@@ -37,6 +37,8 @@ yarn add vue-box-shadows
 
 To create a basic shadow element with minimal configuration, write the following:
 
+### Vue CLI
+
 ```html
 <div v-box-shadow>
   Add beautiful shadow effects to your project without thinking about CSS.
