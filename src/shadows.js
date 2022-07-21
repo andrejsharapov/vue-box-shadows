@@ -2,10 +2,10 @@ export const baseShadow = {
   id: "-1",
   inset: false,
   offsetX: 0,
-  offsetY: "0.125rem",
-  blur: "0.5rem",
+  offsetY: "2px",
+  blur: "8px",
   spread: 0,
-  color: "0 0 0",
+  color: "50 50 50",
   opacity: 8,
 };
 
@@ -319,7 +319,7 @@ export const listShadows = [
     blur: 0,
     spread: 0,
     color: "0 0 0",
-    opacity: 0,
+    opacity: 5,
   },
   {
     id: "24",
@@ -329,7 +329,7 @@ export const listShadows = [
     blur: 0,
     spread: 0,
     color: "0 0 0",
-    opacity: 0,
+    opacity: 5,
   },
   {
     id: "25",
