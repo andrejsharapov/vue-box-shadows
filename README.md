@@ -57,7 +57,7 @@ Vue.use(vueBoxShadows, {
 
 ### Nuxt.js: Global Registration
 
-Create plugin `/plugins/vue-box-shadows.js`
+Create plugin _/plugins/vue-box-shadows.js_
 
 ```js
 import Vue from "vue";
@@ -66,7 +66,7 @@ import vueBoxShadows from "vue-box-shadows";
 Vue.use(vueBoxShadows);
 ```
 
-Add to `nuxt.config.js`
+Add to _nuxt.config.js_
 
 ```js
 export default {
@@ -74,7 +74,7 @@ export default {
 };
 ```
 
-Usage in `index.vue`
+Usage in _index.vue_
 
 ```js
 <template>
@@ -96,8 +96,6 @@ Usage in `index.vue`
 </script>
 ```
 
-Done!
-
 ## Options
 
 | Option           | Type    | Default                          | Description                                                          |
@@ -110,7 +108,8 @@ Done!
 ## Examples
 
 View the entire collection of shadows on the [site][collection].  
-View an example of using the directive on [CodeSandbox][codesandbox]. :green_circle:
+An example of using the [v0.0.1](https://github.com/andrejsharapov/vue-box-shadows/discussions/7#discussioncomment-3175104) directive on [CodeSandbox][codesandbox-01].  
+An example of using the v0.0.2 directive on [CodeSandbox][codesandbox-02] :green_circle:
 
 ### Browser compatibility
 
@@ -120,12 +119,10 @@ Properties are supported by all modern browsers. You can find out about browser 
 
 Feedback, bug reports, and pull requests are welcome. Read the detailed information about contributions in the [CONTRIBUTING.md][contributing] file.
 
-> **Warning** `Bug reporting and testing`  
-> The package is currently under development and bug fixes. More about [testing][testing].
+> **Info** `Bug reporting`  
+> If you find a bug and would like to [report it][bug-report], please make sure the request is not on the [list of known issues][bugs].
 
-If you find a bug and would like to [report it][bug-report], please make sure the request is not on the [list of known issues][bugs].
-
-### License
+## License
 
 vue-box-shadows is licensed under the MIT license. You are free to use, modify and distribute this software, as long as the copyright header is left intact.
 
@@ -139,7 +136,8 @@ vue-box-shadows is licensed under the MIT license. You are free to use, modify a
 
 [bsh-repo]: https://github.com/madeas/box-shadows.css
 [collection]: https://madeas.github.io/box-shadows/
-[codesandbox]: https://codesandbox.io/s/ukvpi1
+[codesandbox-01]: https://codesandbox.io/s/vue-box-shadows-0-0-1-ukvpi1
+[codesandbox-02]: https://codesandbox.io/s/vue-box-shadows-0-0-2-j5fx1i
 [caniuse]: https://caniuse.com/?search=box-shadow
 
 <!--  -->
