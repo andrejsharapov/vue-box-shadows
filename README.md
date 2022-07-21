@@ -109,8 +109,8 @@ Done!
 
 ### Examples
 
-View the collection of shadows on the repository [site][collection].  
-View an example of using the directive on CodePen. :yellow_circle:
+View the entire collection of shadows on the [site][collection].  
+View an example of using the directive on [CodeSandbox][codesandbox]. :yellow_circle:
 
 ### Browser compatibility
 
@@ -139,6 +139,7 @@ vue-box-shadows is licensed under the MIT license. You are free to use, modify a
 
 [bsh-repo]: https://github.com/madeas/box-shadows.css
 [collection]: https://madeas.github.io/box-shadows/
+[codesandbox]: https://codesandbox.io/s/ukvpi1
 [caniuse]: https://caniuse.com/?search=box-shadow
 
 <!--  -->
