@@ -1,8 +1,8 @@
 import Vue from "vue";
 import App from "./App.vue";
-import boxShadows from "./index";
+import vueBoxShadows from "./index";
 
-Vue.use(boxShadows, {
+Vue.use(vueBoxShadows, {
   // useClass: true,
   // shadowBaseCustom: "",
 });
