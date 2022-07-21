@@ -107,7 +107,7 @@ Done!
 
 ---
 
-### Examples
+## Examples
 
 View the entire collection of shadows on the [site][collection].  
 View an example of using the directive on [CodeSandbox][codesandbox]. :yellow_circle:
@@ -116,7 +116,7 @@ View an example of using the directive on [CodeSandbox][codesandbox]. :yellow_ci
 
 Properties are supported by all modern browsers. You can find out about browser support for earlier versions on the [Can I Use][caniuse] site.
 
-### Contributing
+## Contributing
 
 Feedback, bug reports, and pull requests are welcome. Read the detailed information about contributions in the [CONTRIBUTING.md][contributing] file.
 
@@ -131,7 +131,7 @@ vue-box-shadows is licensed under the MIT license. You are free to use, modify a
 
 ---
 
-<a href="#install">Install</a> | <a href="#how-to-use">Usage</a> | <a href="#options">Options</a>
+<a href="#install">Installing</a> | <a href="#how-to-use">Usage</a> | <a href="#options">Options</a> | <a href="#examples">Examples</a>
 
 <p align="right">
 <a href="#vue-box-shadows">Return to top</a>
