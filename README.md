@@ -110,7 +110,7 @@ Done!
 ## Examples
 
 View the entire collection of shadows on the [site][collection].  
-View an example of using the directive on [CodeSandbox][codesandbox]. :yellow_circle:
+View an example of using the directive on [CodeSandbox][codesandbox]. :green_circle:
 
 ### Browser compatibility
 
