@@ -58,7 +58,7 @@ body
 
   margin: 0
   font-family: sans-serif
-  font-size: clamp(1rem, 2vw, 2.25rem)
+  font-size: clamp(1rem, 1.5vw, 2.25rem)
   color: rgba(var(--text-color))
   background-color: rgba(var(--background-color) / var(--background-opacity))
 
