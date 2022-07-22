@@ -2,7 +2,8 @@
   <div id="app">
     <div class="container">
       <h1 class="message">
-        Box-shadows.css <strong>for <span style="color: #42d392">Vue</span></strong>
+        Box-shadows.css
+        <strong>for <span style="color: #42d392">Vue</span></strong>
       </h1>
       <p>
         Add beautiful shadow effects to your project without thinking about CSS.
@@ -46,44 +47,45 @@ export default {
 };
 </script>
 
-<style lang="sass">
-@function rgb($hex)
-    @return red($hex) green($hex) blue($hex)
+<style>
+body {
+  --base-size: 0.25rem;
+  --body-text-color: #1f2229;
+  --body-background: #e9ecf2;
+  --card-border-color: #abc6d034;
+  --card-background: #fafafa;
 
-body
-  --base-size: 0.25rem
-  --text-color: #{rgb(#1f2229)}
-  --background-color: #{rgb(#e9ecf2)}
-  --background-opacity: 1
+  margin: 0;
+  font-family: sans-serif;
+  font-size: clamp(1rem, 1.5vw, 2.25rem);
+  color: var(--body-text-color);
+  background-color: var(--body-background);
+}
 
-  margin: 0
-  font-family: sans-serif
-  font-size: clamp(1rem, 1.5vw, 2.25rem)
-  color: rgba(var(--text-color))
-  background-color: rgba(var(--background-color) / var(--background-opacity))
+.container {
+  max-width: 86vw;
+  margin: auto;
+  padding: calc(var(--base-size) * 6);
+}
 
-.container
-  --border-color: #{rgb(#abc6d0)}
-  --border-opacity: 0.2
+.message {
+  margin-bottom: 2rem;
+}
 
-  max-width: 86vw
-  margin: auto
-  padding: calc(var(--base-size) * 6)
+.list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(8rem, auto));
+  gap: 8vw;
+  text-align: center;
+}
 
-  .message
-    margin-bottom: 2rem
-
-  .list
-    display: grid
-    grid-template-columns: repeat(auto-fit, minmax(8rem, auto) )
-    gap: 8vw
-    text-align: center
-
-    .list-item
-      display: grid
-      padding: 1rem
-      min-height: 8rem
-      place-content: center
-      border: thin solid rgba(var(--border-color) / var(--border-opacity))
-      border-radius: var(--base-size)
+.list-item {
+  display: grid;
+  padding: 1rem;
+  min-height: 8rem;
+  place-content: center;
+  border: thin solid var(--card-border-color);
+  border-radius: var(--base-size);
+  background-color: var(--card-background);
+}
 </style>
