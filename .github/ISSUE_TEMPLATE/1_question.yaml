@@ -2,7 +2,6 @@ name: Ask a Question
 description:
 title: "[Question]: "
 labels: [Question]
-assignees:
 body:
   # step 1
   - type: textarea
