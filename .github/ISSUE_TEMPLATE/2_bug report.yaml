@@ -1,5 +1,5 @@
 name: Report a Bug
-description: Report a bug.
+description: Report an issue with vue-box-shadows.
 title: "[Bug]: "
 labels: [Bug report]
 body:
@@ -7,7 +7,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        *Make sure you [searched all issues](https://github.com/andrejsharapov/vue-box-shadows/issues?q=is%3Aissue+label%3A%22Bug+report%22) before submitting your bug report!*
+        > **Warning**
+        > **Make sure you [searched all issues](https://github.com/andrejsharapov/vue-box-shadows/issues?q=is%3Aissue+label%3A%22Bug+report%22) before submitting your bug report!**
   # step 2
   - type: textarea
     id: about
