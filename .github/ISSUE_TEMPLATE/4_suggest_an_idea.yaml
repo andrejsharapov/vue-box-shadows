@@ -2,7 +2,6 @@ name: Suggest an idea
 description: Suggest an idea for this project.
 title: "[Suggestion]: "
 labels: [Suggestion, Contribution]
-assignees:
 body:
   # step 1
   - type: checkboxes
