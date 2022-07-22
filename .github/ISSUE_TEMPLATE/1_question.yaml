@@ -1,5 +1,5 @@
 name: Ask a Question
-description:
+description: Ask a question about a project.
 title: "[Question]: "
 labels: [Question]
 body:
