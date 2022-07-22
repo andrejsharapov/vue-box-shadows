@@ -1,0 +1,55 @@
+name: Report a Bug
+description: Report a bug.
+title: "[Bug]: "
+labels: [Bug report]
+assignees:
+body:
+  # step 1
+  - type: markdown
+    attributes:
+      value: |
+        *Make sure you [searched all issues](https://github.com/andrejsharapov/vue-box-shadows/issues?q=is%3Aissue+label%3A%22Bug+report%22) before submitting your bug report!*
+  # step 2
+  - type: textarea
+    id: about
+    attributes:
+      label: Where are you experiencing this bug?
+      description: Describe the bug. A clear and concise description of what the bug is.
+    validations:
+      required: true
+  # step 3
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior.
+      description: A clear and concise description of what you expected to happen.
+    validations:
+      required: true
+  # step 4
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: How can you reproduce the error?
+      description: |
+        Please provide as much detail as possible, including reproduction steps.
+
+        ---
+
+        ### To example
+
+          1. Install '...'
+          2. Add to '...'
+          3. Connect in '...'
+          4. See the error
+
+        ---
+    validations:
+      required: true
+  # step 5
+  - type: textarea
+    id: comments
+    attributes:
+      label: Additional Information.
+      description: If applicable, add screenshots to help explain your problem or any other context here.
+    validations:
+      required: false
