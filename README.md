@@ -119,7 +119,7 @@ Properties are supported by all modern browsers. You can find out about browser 
 
 Feedback, bug reports, and pull requests are welcome. Read the detailed information about contributions in the [CONTRIBUTING.md][contributing] file.
 
-> **Info** `Bug reporting`  
+> **Note** `Bug reporting`  
 > If you find a bug and would like to [report it][bug-report], please make sure the request is not on the [list of known issues][bugs].
 
 ## License
