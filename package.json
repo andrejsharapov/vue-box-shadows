@@ -50,7 +50,8 @@
   "keywords": [
     "vue",
     "css",
-    "box-shadow"
+    "box-shadow",
+    "frontend"
   ],
   "bugs": {
     "url": "https://github.com/andrejsharapov/vue-box-shadows/issues"
