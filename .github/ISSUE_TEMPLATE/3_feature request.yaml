@@ -1,0 +1,32 @@
+name: Feature request
+description: Write what feature you are missing in the project.
+title: "[Request]: "
+labels: [Feature request]
+assignees:
+body:
+  # step 1
+  - type: checkboxes
+    id: checking
+    attributes:
+      label: "Before submitting a new request, please confirm the following:"
+      options:
+        - label: I have [searched discussions](https://github.com/andrejsharapov/vue-box-shadows/discussions/5) to make sure a similar request doesn't exist.
+          required: true
+        - label: I have [searched all issues](https://github.com/andrejsharapov/vue-box-shadows/issues?q=is%3Aissue+label%3A%22Feature+request%22) to make sure a similar request doesn't exist.
+          required: true
+  # step 2
+  - type: textarea
+    id: request
+    attributes:
+      label: Tell us about your request.
+      description: A clear and concise description of what the request is.
+    validations:
+      required: true
+  # step 3
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes.
+      description: Add any other context or screenshots about the feature request here.
+    validations:
+      required: false
