@@ -2,7 +2,6 @@ name: Report a Bug
 description: Report a bug.
 title: "[Bug]: "
 labels: [Bug report]
-assignees:
 body:
   # step 1
   - type: markdown
