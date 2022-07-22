@@ -110,7 +110,7 @@ Usage in _index.vue_
 ## Examples
 
 View the entire collection of shadows on the [site][collection].  
-An example of using the [v0.0.1](https://github.com/andrejsharapov/vue-box-shadows/discussions/7#discussioncomment-3175104) directive on [CodeSandbox][codesandbox-01] :green_circle:
+An example of using the [v0.0.1](https://github.com/andrejsharapov/vue-box-shadows/discussions/7#discussioncomment-3175104) directive on [CodeSandbox][codesandbox-01] :green_circle:  
 An example of using the v0.0.2 directive on [CodeSandbox][codesandbox-02] :green_circle:
 
 ### Browser compatibility
