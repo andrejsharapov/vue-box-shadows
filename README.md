@@ -21,16 +21,16 @@ Vue.js wrapper for [Box-shadow.css][bsh-repo] to build simple and awesome shadow
 
 ## Install
 
-Installing via npm
-
 ```bash
-npm i vue-box-shadows
+$ npm i vue-box-shadows
+# or yarn
+$ yarn add vue-box-shadows
 ```
 
-or yarn
+Unpkg CDN
 
 ```bash
-yarn add vue-box-shadows
+https://unpkg.com/vue-box-shadows
 ```
 
 ## How to use
