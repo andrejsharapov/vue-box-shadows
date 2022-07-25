@@ -13,7 +13,7 @@
     "@vue/cli-service": "~5.0.8",
     "babel-eslint": "^10.1.0",
     "core-js": "^3.23.5",
-    "eslint": "^6.8.0",
+    "eslint": "^8.20.0",
     "eslint-plugin-vue": "^6.2.2",
     "vue": "^2.7.7",
     "vue-template-compiler": "^2.7.7"
