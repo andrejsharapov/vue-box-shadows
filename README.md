@@ -27,12 +27,6 @@ $ npm i vue-box-shadows
 $ yarn add vue-box-shadows
 ```
 
-Unpkg CDN
-
-```bash
-https://unpkg.com/vue-box-shadows
-```
-
 ## How to use
 
 To create a basic shadow element with minimal configuration, write the following:
@@ -97,6 +91,8 @@ Usage in _index.vue_
   };
 </script>
 ```
+
+[![Edit Vue Box-shadows, Nuxt2 and TailwindCSS](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/vue-box-shadows-nuxt2-and-tailwindcss-db9968?fontsize=14&hidenavigation=1&theme=dark)
 
 ## Options
 
