@@ -1,5 +1,6 @@
 export const base = {
   id: "-1",
+    name: "",
   inset: false,
   offsetX: 0,
   offsetY: "2px",
@@ -12,6 +13,7 @@ export const base = {
 export const collection = [
   {
     id: "0",
+    name: "",
     inset: false,
     offsetX: 0,
     offsetY: 0,
@@ -22,6 +24,7 @@ export const collection = [
   },
   {
     id: "1",
+    name: "",
     inset: false,
     offsetX: 0,
     offsetY: 0,
@@ -32,6 +35,7 @@ export const collection = [
   },
   {
     id: "2",
+    name: "",
     inset: false,
     offsetX: 0,
     offsetY: "20px",
@@ -42,6 +46,7 @@ export const collection = [
   },
   {
     id: "3",
+    name: "",
     inset: false,
     offsetX: 0,
     offsetY: "6px",
@@ -52,6 +57,7 @@ export const collection = [
   },
   {
     id: "4",
+    name: "",
     inset: false,
     offsetX: 0,
     offsetY: "5px",
@@ -62,6 +68,7 @@ export const collection = [
   },
   {
     id: "5",
+    name: "",
     inset: false,
     offsetX: 0,
     offsetY: "3px",
@@ -72,6 +79,7 @@ export const collection = [
   },
   {
     id: "6",
+    name: "",
     multiple: [
       {
         inset: false,
@@ -95,6 +103,7 @@ export const collection = [
   },
   {
     id: "7",
+    name: "",
     multiple: [
       {
         inset: false,
@@ -118,6 +127,7 @@ export const collection = [
   },
   {
     id: "8",
+    name: "",
     inset: false,
     offsetX: 0,
     offsetY: "15px",
@@ -128,6 +138,7 @@ export const collection = [
   },
   {
     id: "9",
+    name: "",
     inset: false,
     offsetX: "1px",
     offsetY: "1px",
@@ -138,6 +149,7 @@ export const collection = [
   },
   {
     id: "10",
+    name: "",
     inset: false,
     offsetX: 0,
     offsetY: "2px",
@@ -148,6 +160,7 @@ export const collection = [
   },
   {
     id: "11",
+    name: "",
     inset: false,
     offsetX: 0,
     offsetY: "6px",
@@ -158,6 +171,7 @@ export const collection = [
   },
   {
     id: "12",
+    name: "",
     multiple: [
       {
         inset: false,
@@ -190,6 +204,7 @@ export const collection = [
   },
   {
     id: "13",
+    name: "",
     inset: false,
     offsetX: 0,
     offsetY: "-15px",
@@ -200,6 +215,7 @@ export const collection = [
   },
   {
     id: "14",
+    name: "",
     inset: false,
     offsetX: 0,
     offsetY: "-6px",
@@ -210,6 +226,7 @@ export const collection = [
   },
   {
     id: "15",
+    name: "",
     inset: false,
     offsetX: 0,
     offsetY: "-20px",
@@ -220,6 +237,7 @@ export const collection = [
   },
   {
     id: "16",
+    name: "",
     inset: false,
     offsetX: 0,
     offsetY: "-50px",
@@ -230,6 +248,7 @@ export const collection = [
   },
   {
     id: "17",
+    name: "",
     inset: false,
     offsetX: 0,
     offsetY: "-16px",
@@ -240,6 +259,7 @@ export const collection = [
   },
   {
     id: "18",
+    name: "",
     multiple: [
       {
         offsetX: 0,
@@ -262,6 +282,7 @@ export const collection = [
   },
   {
     id: "19",
+    name: "",
     multiple: [
       {
         offsetX: 0,
@@ -283,6 +304,7 @@ export const collection = [
   },
   {
     id: "20",
+    name: "",
     inset: false,
     offsetX: 0,
     offsetY: "-30px",
@@ -293,6 +315,7 @@ export const collection = [
   },
   {
     id: "21",
+    name: "",
     inset: false,
     offsetX: "5px",
     offsetY: "5px",
@@ -303,6 +326,7 @@ export const collection = [
   },
   {
     id: "22",
+    name: "",
     inset: false,
     offsetX: "-5px",
     offsetY: "5px",
@@ -313,6 +337,7 @@ export const collection = [
   },
   {
     id: "23",
+    name: "",
     inset: false,
     offsetX: "5px",
     offsetY: "-5px",
@@ -323,6 +348,7 @@ export const collection = [
   },
   {
     id: "24",
+    name: "",
     inset: false,
     offsetX: "-5px",
     offsetY: "-5px",
@@ -333,6 +359,7 @@ export const collection = [
   },
   {
     id: "25",
+    name: "",
     inset: false,
     offsetX: "2px",
     offsetY: "2px",
@@ -343,6 +370,7 @@ export const collection = [
   },
   {
     id: "26",
+    name: "",
     inset: false,
     offsetX: "-2px",
     offsetY: "2px",
@@ -353,6 +381,7 @@ export const collection = [
   },
   {
     id: "27",
+    name: "",
     inset: false,
     offsetX: "2px",
     offsetY: "-2px",
@@ -363,6 +392,7 @@ export const collection = [
   },
   {
     id: "28",
+    name: "",
     inset: false,
     offsetX: "-2px",
     offsetY: "-2px",
@@ -373,46 +403,51 @@ export const collection = [
   },
   {
     id: "29",
+    name: "",
     inset: false,
     offsetX: "2px",
     offsetY: "4px",
     blur: "6px",
     spread: "1px",
-    color: "50 50 50",
+    color: "160 167 186",
     opacity: 14,
   },
   {
     id: "30",
+    name: "",
     inset: false,
     offsetX: "-2px",
     offsetY: "4px",
     blur: "6px",
     spread: "1px",
-    color: "50 50 50",
+    color: "160 167 186",
     opacity: 14,
   },
   {
     id: "31",
+    name: "",
     inset: false,
     offsetX: "2px",
     offsetY: "-4px",
     blur: "6px",
     spread: "1px",
-    color: "50 50 50",
+    color: "160 167 186",
     opacity: 14,
   },
   {
     id: "32",
+    name: "",
     inset: false,
     offsetX: "-2px",
     offsetY: "-4px",
     blur: "6px",
     spread: "1px",
-    color: "50 50 50",
+    color: "160 167 186",
     opacity: 14,
   },
   {
     id: "33",
+    name: "",
     inset: false,
     offsetX: "15px",
     offsetY: "15px",
@@ -423,6 +458,7 @@ export const collection = [
   },
   {
     id: "34",
+    name: "",
     inset: false,
     offsetX: "-15px",
     offsetY: "15px",
@@ -433,6 +469,7 @@ export const collection = [
   },
   {
     id: "35",
+    name: "",
     inset: false,
     offsetX: "15px",
     offsetY: "-15px",
@@ -443,6 +480,7 @@ export const collection = [
   },
   {
     id: "36",
+    name: "",
     inset: false,
     offsetX: "-15px",
     offsetY: "-15px",
@@ -453,6 +491,7 @@ export const collection = [
   },
   {
     id: "37",
+    name: "",
     multiple: [
       {
         inset: false,
@@ -475,6 +514,7 @@ export const collection = [
   },
   {
     id: "38",
+    name: "",
     multiple: [
       {
         inset: false,
@@ -497,6 +537,7 @@ export const collection = [
   },
   {
     id: "39",
+    name: "",
     multiple: [
       {
         inset: false,
@@ -519,6 +560,7 @@ export const collection = [
   },
   {
     id: "40",
+    name: "",
     multiple: [
       {
         inset: false,
@@ -541,6 +583,7 @@ export const collection = [
   },
   {
     id: "41",
+    name: "",
     multiple: [
       {
         inset: false,
@@ -573,6 +616,7 @@ export const collection = [
   },
   {
     id: "42",
+    name: "",
     multiple: [
       {
         inset: false,
@@ -605,6 +649,7 @@ export const collection = [
   },
   {
     id: "43",
+    name: "",
     inset: false,
     offsetX: 0,
     offsetY: "15px",
@@ -615,6 +660,7 @@ export const collection = [
   },
   {
     id: "44",
+    name: "",
     inset: false,
     offsetX: 0,
     offsetY: "50px",
@@ -625,6 +671,7 @@ export const collection = [
   },
   {
     id: "45",
+    name: "",
     inset: false,
     offsetX: 0,
     offsetY: "8px",
@@ -635,6 +682,7 @@ export const collection = [
   },
   {
     id: "46",
+    name: "",
     inset: false,
     offsetX: 0,
     offsetY: "6px",
@@ -645,6 +693,7 @@ export const collection = [
   },
   {
     id: "47",
+    name: "",
     inset: false,
     offsetX: 0,
     offsetY: "16px",
@@ -655,6 +704,7 @@ export const collection = [
   },
   {
     id: "48",
+    name: "",
     multiple: [
       {
         inset: false,
@@ -677,6 +727,7 @@ export const collection = [
   },
   {
     id: "49",
+    name: "",
     inset: false,
     offsetX: 0,
     offsetY: "30px",
@@ -687,6 +738,7 @@ export const collection = [
   },
   {
     id: "50",
+    name: "",
     inset: false,
     offsetX: 0,
     offsetY: 0,
@@ -697,6 +749,7 @@ export const collection = [
   },
   {
     id: "51",
+    name: "",
     inset: false,
     offsetX: "5px",
     offsetY: "31px",
@@ -707,6 +760,7 @@ export const collection = [
   },
   {
     id: "52",
+    name: "",
     inset: false,
     offsetX: "30px",
     offsetY: "70px",
@@ -717,6 +771,7 @@ export const collection = [
   },
   {
     id: "53",
+    name: "",
     inset: false,
     offsetX: 0,
     offsetY: "30px",
@@ -727,6 +782,7 @@ export const collection = [
   },
   {
     id: "54",
+    name: "",
     inset: false,
     offsetX: "-41px",
     offsetY: "51px",
@@ -737,6 +793,7 @@ export const collection = [
   },
   {
     id: "55",
+    name: "",
     inset: false,
     offsetX: "41px",
     offsetY: "51px",
@@ -747,6 +804,7 @@ export const collection = [
   },
   {
     id: "56",
+    name: "",
     inset: false,
     offsetX: "-100px",
     offsetY: "100px",
@@ -757,6 +815,7 @@ export const collection = [
   },
   {
     id: "57",
+    name: "",
     inset: false,
     offsetX: "100px",
     offsetY: "100px",
@@ -767,6 +826,7 @@ export const collection = [
   },
   {
     id: "58",
+    name: "",
     multiple: [
       {
         inset: false,
@@ -789,13 +849,14 @@ export const collection = [
   },
   {
     id: "59",
+    name: "",
     multiple: [
       {
         offsetX: "6px",
         offsetY: 0,
         blur: "12px",
         spread: "-8px",
-        color: "50 50 50",
+        color: "160 167 186",
         opacity: 45,
       },
       {
@@ -803,20 +864,21 @@ export const collection = [
         offsetY: 0,
         blur: "12px",
         spread: "-8px",
-        color: "50 50 50",
+        color: "160 167 186",
         opacity: 45,
       },
     ],
   },
   {
     id: "60",
+    name: "",
     multiple: [
       {
         offsetX: "6px",
         offsetY: 0,
         blur: "12px",
         spread: "-7px",
-        color: "50 50 50",
+        color: "160 167 186",
         opacity: 75,
       },
       {
@@ -824,20 +886,21 @@ export const collection = [
         offsetY: 0,
         blur: "12px",
         spread: "-7px",
-        color: "50 50 50",
+        color: "160 167 186",
         opacity: 75,
       },
     ],
   },
   {
     id: "61",
+    name: "",
     multiple: [
       {
         offsetX: "-20px",
         offsetY: 0,
         blur: "50px",
         spread: "-25px",
-        color: "50 50 50",
+        color: "160 167 186",
         opacity: 65,
       },
       {
@@ -845,20 +908,21 @@ export const collection = [
         offsetY: 0,
         blur: "50px",
         spread: "-25px",
-        color: "50 50 50",
+        color: "160 167 186",
         opacity: 65,
       },
     ],
   },
   {
     id: "62",
+    name: "",
     multiple: [
       {
         offsetX: "20px",
         offsetY: 0,
         blur: "25px",
         spread: "-15px",
-        color: "50 50 50",
+        color: "160 167 186",
         opacity: 35,
       },
       {
@@ -866,20 +930,21 @@ export const collection = [
         offsetY: 0,
         blur: "25px",
         spread: "-15px",
-        color: "50 50 50",
+        color: "160 167 186",
         opacity: 35,
       },
     ],
   },
   {
     id: "63",
+    name: "",
     multiple: [
       {
         offsetX: 0,
         offsetY: "11px",
         blur: "30px",
         spread: "-20px",
-        color: "51 51 51",
+        color: "160 167 186",
         opacity: 51,
       },
       {
@@ -887,20 +952,21 @@ export const collection = [
         offsetY: "-12px",
         blur: "30px",
         spread: "-20px",
-        color: "51 51 51",
+        color: "160 167 186",
         opacity: 51,
       },
     ],
   },
   {
     id: "64",
+    name: "",
     multiple: [
       {
         offsetX: 0,
         offsetY: "11px",
         blur: "8px",
         spread: "-10px",
-        color: "51 51 51",
+        color: "160 167 186",
         opacity: 51,
       },
       {
@@ -908,7 +974,7 @@ export const collection = [
         offsetY: "-11px",
         blur: "8px",
         spread: "-10px",
-        color: "51 51 51",
+        color: "160 167 186",
         opacity: 51,
       },
     ],
