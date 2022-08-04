@@ -72,6 +72,7 @@ const numShadows = (el, bindings) => {
       };
 
       el.style.setProperty(newStyle.prop, newStyle.val);
+      el.setAttribute("data-shadow", num);
     }
   }
 };
