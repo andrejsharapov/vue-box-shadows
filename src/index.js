@@ -40,15 +40,13 @@ const baseBoxShadow = (el) => {
     };
 
     if (el.multiple) {
-      const one = el.multiple[0];
-      const two = el.multiple[1];
-      const three = el.multiple[2];
+      const em = el.multiple;
 
-      if (three === undefined) {
-        return shadow(one) + ", " + shadow(two);
-      } else {
-        return shadow(one) + ", " + shadow(two) + ", " + shadow(three);
-      }
+      return em
+        .map(function (el) {
+          return shadow(el);
+        })
+        .join(", ");
     } else {
       return shadow(el);
     }
