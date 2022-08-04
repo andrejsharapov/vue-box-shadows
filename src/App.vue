@@ -10,28 +10,13 @@
       </p>
 
       <div class="list">
-        <div class="list-item">without directive</div>
-        <div class="list-item" v-box-shadow>
-          directive without num (base shadow)
-        </div>
-        <div class="list-item" v-box-shadow="num">
-          directive used `num` from data: {{ num }}
-        </div>
-        <div class="list-item" v-box-shadow="num" style="color: red">
-          custom style='color: red;' width directive
-        </div>
-      </div>
-
-      <h3 class="message">Directive used v-for (index)</h3>
-
-      <div class="list">
         <div
           class="list-item"
-          v-for="(item, index) in 65"
+          v-for="(item, index) in items"
           :key="index"
           v-box-shadow="index"
         >
-          {{ index }}
+          {{ item.id }}
         </div>
       </div>
     </div>
@@ -39,10 +24,12 @@
 </template>
 
 <script>
+import { collection } from "./shadows.js";
+
 export default {
   name: "App",
   data: () => ({
-    num: 4,
+    items: collection,
   }),
 };
 </script>
