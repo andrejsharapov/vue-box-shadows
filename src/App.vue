@@ -11,12 +11,14 @@
 
       <div class="list">
         <div
-          class="list-item"
           v-for="(item, index) in items"
           :key="index"
           v-box-shadow="index"
+          class="list-item"
+          :class="{ 'no-name': !item.name }"
         >
-          {{ item.id }}
+          <small>{{ item.id }}</small>
+          <div>{{ item.name }}</div>
         </div>
       </div>
     </div>
@@ -24,12 +26,34 @@
 </template>
 
 <script>
-import { collection } from "./shadows.js";
+import { collection } from "./shadows";
 
 export default {
   name: "App",
   data: () => ({
     items: collection,
+    el: [1, 3, 4, 5, 6, 7, 8],
+    bd: [71, 72, 73, 74, 75, 76],
+    t: [13, 14, 15, 16, 17, 20],
+    rs: [],
+    b: [],
+    ls: [],
+    ax: [24, 23, 22, 21],
+    ay: [28, 27, 26, 25],
+    // more groups
+    // g3: [32, 31, 30, 29],
+    // g4: [36, 35, 34, 33],
+    // g5: [40, 39, 38, 37],
+    // g6: [42, 41, 77, 78],
+    // g7: [54, 55],
+    // g8: [18, 19],
+    // g9: [13, 43],
+    tl: [],
+    tr: [],
+    br: [],
+    bl: [],
+    neu: [65, 66, 67, 68, 69, 70],
+    p: [],
   }),
 };
 </script>
@@ -61,7 +85,7 @@ body {
 
 .list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(8rem, auto));
+  grid-template-columns: repeat(auto-fit, minmax(12rem, auto));
   gap: 8vw;
   text-align: center;
 }
@@ -74,5 +98,9 @@ body {
   border: thin solid var(--card-border-color);
   border-radius: var(--base-size);
   background-color: var(--card-background);
+}
+
+.no-name {
+  background-color: #d84c4c1f;
 }
 </style>

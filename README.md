@@ -31,7 +31,7 @@ $ yarn add vue-box-shadows
 
 To create a basic shadow element with minimal configuration, write the following:
 
-<a href="#vue-cli">Vue CLI</a> | <a href="#nuxtjs-global-registration">Nuxt</a>
+[Vue CLI](#vue-cli) | [Nuxt](#nuxtjs-global-registration)
 
 ### Vue CLI
 
@@ -109,6 +109,27 @@ View the entire collection of shadows on the [site][collection].
 An example of using the [v0.0.1](https://github.com/andrejsharapov/vue-box-shadows/discussions/7#discussioncomment-3175104) directive on [CodeSandbox][codesandbox-01] :green_circle:  
 An example of using the v0.0.2 directive on [CodeSandbox][codesandbox-02] :green_circle:
 
+## [PRE] Group names
+
+In release v0.0.4, shadows will be grouped into groups, a list of which you can see in the table below. You can use these names in the directive instead of a numbers.
+
+| Group name          | Name ($ is value/number) | Values | Examples |
+| ------------------- | ------------------------ | :----: | -------- |
+| Elevations          | `el-$`                   |  1-12  | Example  |
+| Borders             | `bd-$`                   |  1-6   | Example  |
+| Top                 | `t-$`                    |  1-6   | Example  |
+| Right side          | `rs-$`                   |  ---   | Example  |
+| Bottom              | `b-$`                    |  1-6   | Example  |
+| Left side           | `ls-$`                   |  ---   | Example  |
+| Axis x              | `ax-$`                   |  ---   | Example  |
+| Axis y              | `ay-$`                   |  ---   | Example  |
+| Angle: top left     | `tl-$`                   |  ---   | Example  |
+| Angle: top right    | `tr-$`                   |  ---   | Example  |
+| Angle: bottom right | `br-$`                   |  ---   | Example  |
+| Angle: bottom left  | `bl-$`                   |  ---   | Example  |
+| Neumorphism         | `neu-$` or `neu-$-inner` |  1-3   | Example  |
+| Patterns            | `p-$`                    |  ---   | Example  |
+
 ### Browser compatibility
 
 Properties are supported by all modern browsers. You can find out about browser support for earlier versions on the [Can I Use][caniuse] site.
@@ -126,7 +147,7 @@ vue-box-shadows is licensed under the MIT license. You are free to use, modify a
 
 ---
 
-<a href="#install">Installing</a> | <a href="#how-to-use">Usage</a> | <a href="#options">Options</a> | <a href="#examples">Examples</a>
+[Installing](#install) · [Usage](#how-to-use) · [Options](#options) · [Examples](#examples)
 
 <p align="right">
 <a href="#vue-box-shadows">Return to top</a>
