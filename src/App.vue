@@ -13,7 +13,7 @@
         <div
           v-for="(item, index) in items"
           :key="index"
-          v-box-shadow="index"
+          v-box-shadow="item.id"
           class="list-item"
           :class="{ 'no-name': !item.name }"
         >
