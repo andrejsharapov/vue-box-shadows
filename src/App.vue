@@ -26,7 +26,7 @@
 </template>
 
 <script>
-import { collection } from "./shadows-new";
+import { collection } from "./shadows";
 
 export default {
   name: "App",
