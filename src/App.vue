@@ -32,28 +32,6 @@ export default {
   name: "App",
   data: () => ({
     items: collection,
-    el: [1, 3, 4, 5, 6, 7, 8],
-    bd: [71, 72, 73, 74, 75, 76],
-    t: [13, 14, 15, 16, 17, 20],
-    rs: [],
-    b: [],
-    ls: [],
-    ax: [24, 23, 22, 21],
-    ay: [28, 27, 26, 25],
-    // more groups
-    // g3: [32, 31, 30, 29],
-    // g4: [36, 35, 34, 33],
-    // g5: [40, 39, 38, 37],
-    // g6: [42, 41, 77, 78],
-    // g7: [54, 55],
-    // g8: [18, 19],
-    // g9: [13, 43],
-    tl: [],
-    tr: [],
-    br: [],
-    bl: [],
-    neu: [65, 66, 67, 68, 69, 70],
-    p: [],
   }),
 };
 </script>
@@ -62,9 +40,9 @@ export default {
 body {
   --base-size: 0.25rem;
   --body-text-color: #1f2229;
-  --body-background: #e9ecf2;
+  --body-background: #fff; /* #e9ecf2; */
   --card-border-color: #abc6d034;
-  --card-background: #fafafa;
+  --card-background: #fff; /* #eceef7; */
 
   margin: 0;
   font-family: sans-serif;
@@ -96,11 +74,11 @@ body {
   min-height: 8rem;
   place-content: center;
   border: thin solid var(--card-border-color);
-  border-radius: var(--base-size);
+  border-radius: calc(var(--base-size) * 2);
   background-color: var(--card-background);
 }
 
-.no-name {
-  background-color: #d84c4c1f;
-}
+/* .no-name {
+  background-color: #e6e9ef;
+} */
 </style>
