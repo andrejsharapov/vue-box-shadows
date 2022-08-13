@@ -11,12 +11,14 @@
 
       <div class="list">
         <div
-          class="list-item"
           v-for="(item, index) in items"
           :key="index"
-          v-box-shadow="index"
+          v-box-shadow="item.id"
+          class="list-item"
+          :class="{ 'no-name': !item.name }"
         >
-          {{ item.id }}
+          <small>id: {{ item.id }}</small>
+          <div>{{ item.name }}</div>
         </div>
       </div>
     </div>
@@ -24,7 +26,7 @@
 </template>
 
 <script>
-import { collection } from "./shadows.js";
+import { collection } from "./shadows";
 
 export default {
   name: "App",
@@ -35,13 +37,21 @@ export default {
 </script>
 
 <style>
-body {
+:root {
   --base-size: 0.25rem;
   --body-text-color: #1f2229;
-  --body-background: #e9ecf2;
+  --body-background: #eceef7; /* #fff; */
   --card-border-color: #abc6d034;
-  --card-background: #fafafa;
+  --card-background: #eceef7; /* #eceef7; */
+}
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
   margin: 0;
   font-family: sans-serif;
   font-size: clamp(1rem, 1.5vw, 2.25rem);
@@ -56,23 +66,32 @@ body {
 }
 
 .message {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(8rem, auto));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 8vw;
+  place-items: center;
   text-align: center;
 }
 
 .list-item {
   display: grid;
-  padding: 1rem;
-  min-height: 8rem;
+  width: 240px;
+  height: 240px;
   place-content: center;
-  border: thin solid var(--card-border-color);
-  border-radius: var(--base-size);
+  /* border: 0.75rem solid var(--card-background); */
+  /* border-radius: 50%; */
   background-color: var(--card-background);
+}
+
+.list-item small {
+  opacity: 0.4;
+}
+
+.no-name {
+  background-color: #e9b6cf;
 }
 </style>

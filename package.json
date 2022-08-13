@@ -37,7 +37,7 @@
     "last 2 versions",
     "not dead"
   ],
-  "description": "Vue.js wrapper for box-shadow.css to build simple and awesome shadows with use vue.",
+  "description": "Collection of CSS box-shadows for every taste contains more than 100 simple, beautiful and airy shadows.",
   "main": "src/index.js",
   "author": "Andrej Sharapov",
   "license": "MIT",

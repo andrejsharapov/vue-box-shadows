@@ -1,6 +1,6 @@
 # Vue Box-shadows
 
-Vue.js wrapper for [Box-shadow.css][bsh-repo] to build simple and awesome shadows with use vue.
+Collection of CSS box-shadows for every taste contains [more than 100](#groups) simple, beautiful and airy shadows. Add beautiful shadow effects to your Vue project without thinking about CSS. Some shadows are borrowed from the collection of [box-shadow.css][bsh-repo].
 
 ---
 
@@ -31,7 +31,7 @@ $ yarn add vue-box-shadows
 
 To create a basic shadow element with minimal configuration, write the following:
 
-<a href="#vue-cli">Vue CLI</a> | <a href="#nuxtjs-global-registration">Nuxt</a>
+[Vue CLI](#vue-cli) | [Nuxt](#nuxtjs-global-registration)
 
 ### Vue CLI
 
@@ -105,9 +105,36 @@ Usage in _index.vue_
 
 ## Examples
 
-View the entire collection of shadows on the [site][collection].  
 An example of using the [v0.0.1](https://github.com/andrejsharapov/vue-box-shadows/discussions/7#discussioncomment-3175104) directive on [CodeSandbox][codesandbox-01] :green_circle:  
 An example of using the v0.0.2 directive on [CodeSandbox][codesandbox-02] :green_circle:
+
+## Groups
+
+In release v0.0.3, shadows have been grouped and sorted. You can see the entire list of shadows in the table below.
+
+| Group name          | Name ($ is value/number)           | Values | Shadow id's | Examples |
+| ------------------- | ---------------------------------- | :----: | :---------: | -------- |
+| None                | `none`                             |   1    |      0      | View     |
+| Elevation           | `el-$`                             |  1-24  |    1-24     | View     |
+| Borders             | `bd-$`                             |  1-6   |    25-30    | View     |
+| Neumorphism         | `neu-$` or `neu-$-i` or `neu-$-io` |  1-3   |    31-39    | View     |
+| Axis x              | `ax-$`                             |  1-6   |    40-45    | View     |
+| Axis y              | `ay-$`                             |  1-6   |    46-51    | View     |
+| Small inner side    | `si-$`                             |  1-4   |    52-55    | View     |
+| Medium inner side   | `mi-$`                             |  1-4   |    56-59    | View     |
+| Large inner side    | `li-$`                             |  1-4   |    60-63    | View     |
+| Top                 | `t-$`                              |  1-6   |    64-69    | View     |
+| Bottom              | `b-$`                              |  1-6   |    70-75    | View     |
+| Right side          | `r-$`                              |  1-6   |    76-81    | View     |
+| Left side           | `l-$`                              |  1-6   |    82-87    | View     |
+| Angle: top left     | `tl-$`                             |  1-6   |    88-93    | View     |
+| Angle: top right    | `tr-$`                             |  1-6   |    94-99    | View     |
+| Angle: bottom right | `br-$`                             |  1-6   |   100-105   | View     |
+| Angle: bottom left  | `bl-$`                             |  1-6   |   106-111   | View     |
+| Patterns            | `p-$`                              |  1-2   |   112-115   | View     |
+
+> Note  
+> In the v0.0.4 release, you will be able to use these names in the directive instead of numbers. They are currently unavailable.
 
 ### Browser compatibility
 
@@ -126,14 +153,13 @@ vue-box-shadows is licensed under the MIT license. You are free to use, modify a
 
 ---
 
-<a href="#install">Installing</a> | <a href="#how-to-use">Usage</a> | <a href="#options">Options</a> | <a href="#examples">Examples</a>
+[Installing](#install) · [Usage](#how-to-use) · [Options](#options) · [Groups](#groups) · [Examples](#examples)
 
 <p align="right">
 <a href="#vue-box-shadows">Return to top</a>
 </p>
 
 [bsh-repo]: https://github.com/madeas/box-shadows.css
-[collection]: https://madeas.github.io/box-shadows/
 [codesandbox-01]: https://codesandbox.io/s/vue-box-shadows-0-0-1-ukvpi1
 [codesandbox-02]: https://codesandbox.io/s/vue-box-shadows-0-0-2-j5fx1i
 [caniuse]: https://caniuse.com/?search=box-shadow
