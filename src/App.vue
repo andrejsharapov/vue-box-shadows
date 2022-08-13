@@ -17,7 +17,7 @@
           class="list-item"
           :class="{ 'no-name': !item.name }"
         >
-          <small>{{ item.id }}</small>
+          <small>id: {{ item.id }}</small>
           <div>{{ item.name }}</div>
         </div>
       </div>
@@ -26,7 +26,7 @@
 </template>
 
 <script>
-import { collection } from "./shadows";
+import { collection } from "./shadows-new";
 
 export default {
   name: "App",
@@ -58,27 +58,32 @@ body {
 }
 
 .message {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(12rem, auto));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 8vw;
+  place-items: center;
   text-align: center;
 }
 
 .list-item {
   display: grid;
-  padding: 1rem;
-  min-height: 8rem;
+  width: calc(var(--base-size) * 32);
+  height: calc(var(--base-size) * 32);
+  padding: 2rem;
   place-content: center;
-  border: thin solid var(--card-border-color);
   border-radius: calc(var(--base-size) * 2);
   background-color: var(--card-background);
 }
 
-/* .no-name {
+.list-item small {
+  opacity: 0.4;
+}
+
+.no-name {
   background-color: #e6e9ef;
-} */
+}
 </style>
