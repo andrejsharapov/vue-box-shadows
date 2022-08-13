@@ -1,6 +1,6 @@
 export const base = {
-  id: "-1",
-    name: "",
+  id: -1,
+  name: "base",
   inset: false,
   offsetX: 0,
   offsetY: "2px",
@@ -12,8 +12,8 @@ export const base = {
 
 export const collection = [
   {
-    id: "0",
-    name: "",
+    id: 0,
+    name: "none",
     inset: false,
     offsetX: 0,
     offsetY: 0,
@@ -23,7 +23,7 @@ export const collection = [
     opacity: 0,
   },
   {
-    id: "1",
+    id: 1,
     name: "",
     inset: false,
     offsetX: 0,
@@ -34,7 +34,7 @@ export const collection = [
     opacity: 10,
   },
   {
-    id: "2",
+    id: 2,
     name: "",
     inset: false,
     offsetX: 0,
@@ -45,7 +45,7 @@ export const collection = [
     opacity: 10,
   },
   {
-    id: "3",
+    id: 3,
     name: "",
     inset: false,
     offsetX: 0,
@@ -56,7 +56,7 @@ export const collection = [
     opacity: 9,
   },
   {
-    id: "4",
+    id: 4,
     name: "",
     inset: false,
     offsetX: 0,
@@ -67,7 +67,7 @@ export const collection = [
     opacity: 10,
   },
   {
-    id: "5",
+    id: 5,
     name: "",
     inset: false,
     offsetX: 0,
@@ -78,7 +78,7 @@ export const collection = [
     opacity: 12,
   },
   {
-    id: "6",
+    id: 6,
     name: "",
     multiple: [
       {
@@ -102,7 +102,7 @@ export const collection = [
     ],
   },
   {
-    id: "7",
+    id: 7,
     name: "",
     multiple: [
       {
@@ -126,7 +126,7 @@ export const collection = [
     ],
   },
   {
-    id: "8",
+    id: 8,
     name: "",
     inset: false,
     offsetX: 0,
@@ -137,18 +137,17 @@ export const collection = [
     opacity: 25,
   },
   {
-    id: "9",
+    id: 9,
     name: "",
     inset: false,
-    offsetX: "1px",
-    offsetY: "1px",
-    blur: "1px",
+    offsetY: "8px",
+    blur: "16px",
     spread: 0,
     color: "0 0 0",
     opacity: 6,
   },
   {
-    id: "10",
+    id: 10,
     name: "",
     inset: false,
     offsetX: 0,
@@ -159,7 +158,7 @@ export const collection = [
     opacity: 40,
   },
   {
-    id: "11",
+    id: 11,
     name: "",
     inset: false,
     offsetX: 0,
@@ -170,7 +169,7 @@ export const collection = [
     opacity: 30,
   },
   {
-    id: "12",
+    id: 12,
     name: "",
     multiple: [
       {
@@ -203,7 +202,7 @@ export const collection = [
     ],
   },
   {
-    id: "13",
+    id: 13,
     name: "",
     inset: false,
     offsetX: 0,
@@ -214,7 +213,7 @@ export const collection = [
     opacity: 20,
   },
   {
-    id: "14",
+    id: 14,
     name: "",
     inset: false,
     offsetX: 0,
@@ -225,7 +224,7 @@ export const collection = [
     opacity: 9,
   },
   {
-    id: "15",
+    id: 15,
     name: "",
     inset: false,
     offsetX: 0,
@@ -236,7 +235,7 @@ export const collection = [
     opacity: 10,
   },
   {
-    id: "16",
+    id: 16,
     name: "",
     inset: false,
     offsetX: 0,
@@ -247,7 +246,7 @@ export const collection = [
     opacity: 25,
   },
   {
-    id: "17",
+    id: 17,
     name: "",
     inset: false,
     offsetX: 0,
@@ -258,10 +257,11 @@ export const collection = [
     opacity: 20,
   },
   {
-    id: "18",
+    id: 18,
     name: "",
     multiple: [
       {
+        inset: false,
         offsetX: 0,
         offsetY: "16px",
         blur: "32px",
@@ -281,10 +281,11 @@ export const collection = [
     ],
   },
   {
-    id: "19",
+    id: 19,
     name: "",
     multiple: [
       {
+        inset: false,
         offsetX: 0,
         offsetY: "-16px",
         blur: "32px",
@@ -293,6 +294,7 @@ export const collection = [
         opacity: 28,
       },
       {
+        inset: false,
         offsetX: 0,
         offsetY: 0,
         blur: 0,
@@ -303,7 +305,7 @@ export const collection = [
     ],
   },
   {
-    id: "20",
+    id: 20,
     name: "",
     inset: false,
     offsetX: 0,
@@ -314,7 +316,7 @@ export const collection = [
     opacity: 20,
   },
   {
-    id: "21",
+    id: 21,
     name: "",
     inset: false,
     offsetX: "5px",
@@ -325,7 +327,7 @@ export const collection = [
     opacity: 5,
   },
   {
-    id: "22",
+    id: 22,
     name: "",
     inset: false,
     offsetX: "-5px",
@@ -336,7 +338,7 @@ export const collection = [
     opacity: 5,
   },
   {
-    id: "23",
+    id: 23,
     name: "",
     inset: false,
     offsetX: "5px",
@@ -347,7 +349,7 @@ export const collection = [
     opacity: 5,
   },
   {
-    id: "24",
+    id: 24,
     name: "",
     inset: false,
     offsetX: "-5px",
@@ -358,7 +360,7 @@ export const collection = [
     opacity: 5,
   },
   {
-    id: "25",
+    id: 25,
     name: "",
     inset: false,
     offsetX: "2px",
@@ -369,7 +371,7 @@ export const collection = [
     opacity: 20,
   },
   {
-    id: "26",
+    id: 26,
     name: "",
     inset: false,
     offsetX: "-2px",
@@ -380,7 +382,7 @@ export const collection = [
     opacity: 20,
   },
   {
-    id: "27",
+    id: 27,
     name: "",
     inset: false,
     offsetX: "2px",
@@ -391,7 +393,7 @@ export const collection = [
     opacity: 20,
   },
   {
-    id: "28",
+    id: 28,
     name: "",
     inset: false,
     offsetX: "-2px",
@@ -402,7 +404,7 @@ export const collection = [
     opacity: 20,
   },
   {
-    id: "29",
+    id: 29,
     name: "",
     inset: false,
     offsetX: "2px",
@@ -413,7 +415,7 @@ export const collection = [
     opacity: 14,
   },
   {
-    id: "30",
+    id: 30,
     name: "",
     inset: false,
     offsetX: "-2px",
@@ -424,7 +426,7 @@ export const collection = [
     opacity: 14,
   },
   {
-    id: "31",
+    id: 31,
     name: "",
     inset: false,
     offsetX: "2px",
@@ -435,7 +437,7 @@ export const collection = [
     opacity: 14,
   },
   {
-    id: "32",
+    id: 32,
     name: "",
     inset: false,
     offsetX: "-2px",
@@ -446,7 +448,7 @@ export const collection = [
     opacity: 14,
   },
   {
-    id: "33",
+    id: 33,
     name: "",
     inset: false,
     offsetX: "15px",
@@ -457,7 +459,7 @@ export const collection = [
     opacity: 20,
   },
   {
-    id: "34",
+    id: 34,
     name: "",
     inset: false,
     offsetX: "-15px",
@@ -468,7 +470,7 @@ export const collection = [
     opacity: 20,
   },
   {
-    id: "35",
+    id: 35,
     name: "",
     inset: false,
     offsetX: "15px",
@@ -479,7 +481,7 @@ export const collection = [
     opacity: 20,
   },
   {
-    id: "36",
+    id: 36,
     name: "",
     inset: false,
     offsetX: "-15px",
@@ -490,7 +492,7 @@ export const collection = [
     opacity: 20,
   },
   {
-    id: "37",
+    id: 37,
     name: "",
     multiple: [
       {
@@ -503,6 +505,7 @@ export const collection = [
         opacity: 28,
       },
       {
+        inset: false,
         offsetX: 0,
         offsetY: 0,
         blur: 0,
@@ -513,7 +516,7 @@ export const collection = [
     ],
   },
   {
-    id: "38",
+    id: 38,
     name: "",
     multiple: [
       {
@@ -526,6 +529,7 @@ export const collection = [
         opacity: 28,
       },
       {
+        inset: false,
         offsetX: 0,
         offsetY: 0,
         blur: 0,
@@ -536,7 +540,7 @@ export const collection = [
     ],
   },
   {
-    id: "39",
+    id: 39,
     name: "",
     multiple: [
       {
@@ -549,6 +553,7 @@ export const collection = [
         opacity: 28,
       },
       {
+        inset: false,
         offsetX: 0,
         offsetY: 0,
         blur: 0,
@@ -559,7 +564,7 @@ export const collection = [
     ],
   },
   {
-    id: "40",
+    id: 40,
     name: "",
     multiple: [
       {
@@ -572,6 +577,7 @@ export const collection = [
         opacity: 28,
       },
       {
+        inset: false,
         offsetX: 0,
         offsetY: 0,
         blur: 0,
@@ -582,7 +588,7 @@ export const collection = [
     ],
   },
   {
-    id: "41",
+    id: 41,
     name: "",
     multiple: [
       {
@@ -615,7 +621,7 @@ export const collection = [
     ],
   },
   {
-    id: "42",
+    id: 42,
     name: "",
     multiple: [
       {
@@ -648,7 +654,7 @@ export const collection = [
     ],
   },
   {
-    id: "43",
+    id: 43,
     name: "",
     inset: false,
     offsetX: 0,
@@ -659,7 +665,7 @@ export const collection = [
     opacity: 20,
   },
   {
-    id: "44",
+    id: 44,
     name: "",
     inset: false,
     offsetX: 0,
@@ -670,7 +676,7 @@ export const collection = [
     opacity: 25,
   },
   {
-    id: "45",
+    id: 45,
     name: "",
     inset: false,
     offsetX: 0,
@@ -681,7 +687,7 @@ export const collection = [
     opacity: 5,
   },
   {
-    id: "46",
+    id: 46,
     name: "",
     inset: false,
     offsetX: 0,
@@ -692,7 +698,7 @@ export const collection = [
     opacity: 9,
   },
   {
-    id: "47",
+    id: 47,
     name: "",
     inset: false,
     offsetX: 0,
@@ -703,7 +709,7 @@ export const collection = [
     opacity: 20,
   },
   {
-    id: "48",
+    id: 48,
     name: "",
     multiple: [
       {
@@ -716,6 +722,7 @@ export const collection = [
         opacity: 28,
       },
       {
+        inset: false,
         offsetX: 0,
         offsetY: 0,
         blur: 0,
@@ -726,7 +733,7 @@ export const collection = [
     ],
   },
   {
-    id: "49",
+    id: 49,
     name: "",
     inset: false,
     offsetX: 0,
@@ -737,7 +744,7 @@ export const collection = [
     opacity: 20,
   },
   {
-    id: "50",
+    id: 50,
     name: "",
     inset: false,
     offsetX: 0,
@@ -748,7 +755,7 @@ export const collection = [
     opacity: 12,
   },
   {
-    id: "51",
+    id: 51,
     name: "",
     inset: false,
     offsetX: "5px",
@@ -759,7 +766,7 @@ export const collection = [
     opacity: 7,
   },
   {
-    id: "52",
+    id: 52,
     name: "",
     inset: false,
     offsetX: "30px",
@@ -770,7 +777,7 @@ export const collection = [
     opacity: 5,
   },
   {
-    id: "53",
+    id: 53,
     name: "",
     inset: false,
     offsetX: 0,
@@ -781,7 +788,7 @@ export const collection = [
     opacity: 7,
   },
   {
-    id: "54",
+    id: 54,
     name: "",
     inset: false,
     offsetX: "-41px",
@@ -792,7 +799,7 @@ export const collection = [
     opacity: 6,
   },
   {
-    id: "55",
+    id: 55,
     name: "",
     inset: false,
     offsetX: "41px",
@@ -803,7 +810,7 @@ export const collection = [
     opacity: 6,
   },
   {
-    id: "56",
+    id: 56,
     name: "",
     inset: false,
     offsetX: "-100px",
@@ -814,7 +821,7 @@ export const collection = [
     opacity: 7,
   },
   {
-    id: "57",
+    id: 57,
     name: "",
     inset: false,
     offsetX: "100px",
@@ -825,7 +832,7 @@ export const collection = [
     opacity: 7,
   },
   {
-    id: "58",
+    id: 58,
     name: "",
     multiple: [
       {
@@ -838,6 +845,7 @@ export const collection = [
         opacity: 25,
       },
       {
+        inset: false,
         offsetX: "-5px",
         offsetY: 0,
         blur: "12px",
@@ -848,10 +856,11 @@ export const collection = [
     ],
   },
   {
-    id: "59",
+    id: 59,
     name: "",
     multiple: [
       {
+        inset: false,
         offsetX: "6px",
         offsetY: 0,
         blur: "12px",
@@ -860,6 +869,7 @@ export const collection = [
         opacity: 45,
       },
       {
+        inset: false,
         offsetX: "-6px",
         offsetY: 0,
         blur: "12px",
@@ -870,10 +880,11 @@ export const collection = [
     ],
   },
   {
-    id: "60",
+    id: 60,
     name: "",
     multiple: [
       {
+        inset: false,
         offsetX: "6px",
         offsetY: 0,
         blur: "12px",
@@ -882,6 +893,7 @@ export const collection = [
         opacity: 75,
       },
       {
+        inset: false,
         offsetX: "-6px",
         offsetY: 0,
         blur: "12px",
@@ -892,10 +904,11 @@ export const collection = [
     ],
   },
   {
-    id: "61",
+    id: 61,
     name: "",
     multiple: [
       {
+        inset: false,
         offsetX: "-20px",
         offsetY: 0,
         blur: "50px",
@@ -904,6 +917,7 @@ export const collection = [
         opacity: 65,
       },
       {
+        inset: false,
         offsetX: "20px",
         offsetY: 0,
         blur: "50px",
@@ -914,10 +928,11 @@ export const collection = [
     ],
   },
   {
-    id: "62",
+    id: 62,
     name: "",
     multiple: [
       {
+        inset: false,
         offsetX: "20px",
         offsetY: 0,
         blur: "25px",
@@ -926,6 +941,7 @@ export const collection = [
         opacity: 35,
       },
       {
+        inset: false,
         offsetX: "-20px",
         offsetY: 0,
         blur: "25px",
@@ -936,10 +952,11 @@ export const collection = [
     ],
   },
   {
-    id: "63",
+    id: 63,
     name: "",
     multiple: [
       {
+        inset: false,
         offsetX: 0,
         offsetY: "11px",
         blur: "30px",
@@ -948,6 +965,7 @@ export const collection = [
         opacity: 51,
       },
       {
+        inset: false,
         offsetX: 0,
         offsetY: "-12px",
         blur: "30px",
@@ -958,10 +976,11 @@ export const collection = [
     ],
   },
   {
-    id: "64",
+    id: 64,
     name: "",
     multiple: [
       {
+        inset: false,
         offsetX: 0,
         offsetY: "11px",
         blur: "8px",
@@ -970,6 +989,7 @@ export const collection = [
         opacity: 51,
       },
       {
+        inset: false,
         offsetX: 0,
         offsetY: "-11px",
         blur: "8px",
