@@ -37,13 +37,21 @@ export default {
 </script>
 
 <style>
-body {
+:root {
   --base-size: 0.25rem;
   --body-text-color: #1f2229;
-  --body-background: #fff; /* #e9ecf2; */
+  --body-background: #eceef7; /* #fff; */
   --card-border-color: #abc6d034;
-  --card-background: #fff; /* #eceef7; */
+  --card-background: #eceef7; /* #eceef7; */
+}
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
   margin: 0;
   font-family: sans-serif;
   font-size: clamp(1rem, 1.5vw, 2.25rem);
@@ -71,11 +79,11 @@ body {
 
 .list-item {
   display: grid;
-  width: calc(var(--base-size) * 32);
-  height: calc(var(--base-size) * 32);
-  padding: 2rem;
+  width: 240px;
+  height: 240px;
   place-content: center;
-  border-radius: calc(var(--base-size) * 2);
+  /* border: 0.75rem solid var(--card-background); */
+  /* border-radius: 50%; */
   background-color: var(--card-background);
 }
 
@@ -84,6 +92,6 @@ body {
 }
 
 .no-name {
-  background-color: #e6e9ef;
+  background-color: #e9b6cf;
 }
 </style>
