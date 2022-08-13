@@ -110,7 +110,7 @@ An example of using the v0.0.2 directive on [CodeSandbox][codesandbox-02] :green
 
 ## Groups
 
-In release v1.0.0, shadows have been grouped and sorted. You can see the entire list of shadows in the table below.
+In release v1.0.4, shadows have been grouped and sorted. You can see the entire list of shadows in the table below.
 
 | Group name          | Name ($ is value/number)           | Values | Shadow id's | Examples |
 | ------------------- | ---------------------------------- | :----: | :---------: | -------- |
