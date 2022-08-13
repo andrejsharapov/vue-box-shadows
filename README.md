@@ -111,24 +111,24 @@ An example of using the v0.0.2 directive on [CodeSandbox][codesandbox-02] :green
 
 ## [PRE] Group names
 
-In release v0.0.4, shadows will be grouped into groups, a list of which you can see in the table below. You can use these names in the directive instead of a numbers.
+In release v0.0.4, shadows will be grouped into groups, a list of which you can see in the table below. You will be able to use these names in the directive instead of numbers.
 
-| Group name          | Name ($ is value/number) | Values | Examples |
-| ------------------- | ------------------------ | :----: | -------- |
-| Elevations          | `el-$`                   |  1-12  | Example  |
-| Borders             | `bd-$`                   |  1-6   | Example  |
-| Top                 | `t-$`                    |  1-6   | Example  |
-| Right side          | `rs-$`                   |  ---   | Example  |
-| Bottom              | `b-$`                    |  1-6   | Example  |
-| Left side           | `ls-$`                   |  ---   | Example  |
-| Axis x              | `ax-$`                   |  ---   | Example  |
-| Axis y              | `ay-$`                   |  ---   | Example  |
-| Angle: top left     | `tl-$`                   |  ---   | Example  |
-| Angle: top right    | `tr-$`                   |  ---   | Example  |
-| Angle: bottom right | `br-$`                   |  ---   | Example  |
-| Angle: bottom left  | `bl-$`                   |  ---   | Example  |
-| Neumorphism         | `neu-$` or `neu-$-inner` |  1-3   | Example  |
-| Patterns            | `p-$`                    |  ---   | Example  |
+| Group name          | Name ($ is value/number) | Id's | Values | Examples |
+| ------------------- | ------------------------ | :--: | :----: | -------- |
+| Elevations          | `el-$`                   |      |        | Example  |
+| Borders             | `bd-$`                   |      |        | Example  |
+| Top                 | `t-$`                    |      |        | Example  |
+| Right side          | `rs-$`                   |      |        | Example  |
+| Bottom              | `b-$`                    |      |        | Example  |
+| Left side           | `ls-$`                   |      |        | Example  |
+| Axis x              | `ax-$`                   |      |        | Example  |
+| Axis y              | `ay-$`                   |      |        | Example  |
+| Angle: top left     | `tl-$`                   |      |        | Example  |
+| Angle: top right    | `tr-$`                   |      |        | Example  |
+| Angle: bottom right | `br-$`                   |      |        | Example  |
+| Angle: bottom left  | `bl-$`                   |      |        | Example  |
+| Neumorphism         | `neu-$` or `neu-$-inner` |      |        | Example  |
+| Patterns            | `p-$`                    |      |        | Example  |
 
 ### Browser compatibility
 
