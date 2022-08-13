@@ -1,6 +1,6 @@
 # Vue Box-shadows
 
-Collection of CSS box-shadows for every taste contains [more than 100](#groups) simple and beautiful shadows. Add beautiful shadow effects to your Vue project without thinking about CSS. Some shadows are borrowed from the collection of [box-shadow.css][bsh-repo].
+Collection of CSS box-shadows for every taste contains [more than 100](#groups) simple, beautiful and airy shadows. Add beautiful shadow effects to your Vue project without thinking about CSS. Some shadows are borrowed from the collection of [box-shadow.css][bsh-repo].
 
 ---
 
