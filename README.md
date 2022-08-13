@@ -153,7 +153,7 @@ vue-box-shadows is licensed under the MIT license. You are free to use, modify a
 
 ---
 
-[Installing](#install) · [Usage](#how-to-use) · [Options](#options) · [Examples](#examples)
+[Installing](#install) · [Usage](#how-to-use) · [Options](#options) · [Groups](#groups) · [Examples](#examples)
 
 <p align="right">
 <a href="#vue-box-shadows">Return to top</a>
