@@ -103,11 +103,6 @@ Usage in _index.vue_
 
 ---
 
-## Examples
-
-An example of using the [v0.0.1](https://github.com/andrejsharapov/vue-box-shadows/discussions/7#discussioncomment-3175104) directive on [CodeSandbox][codesandbox-01] :green_circle:  
-An example of using the v0.0.2 directive on [CodeSandbox][codesandbox-02] :green_circle:
-
 ## Groups
 
 In release v1.0.4, shadows have been grouped and sorted.  
@@ -155,7 +150,7 @@ vue-box-shadows is licensed under the MIT license. You are free to use, modify a
 
 ---
 
-[Installing](#install) · [Usage](#how-to-use) · [Options](#options) · [Groups](#groups) · [Examples](#examples)
+[Installing](#install) · [Usage](#how-to-use) · [Options](#options) · [Groups](#groups)
 
 <p align="right">
 <a href="#vue-box-shadows">Return to top</a>
