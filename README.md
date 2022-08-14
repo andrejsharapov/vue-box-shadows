@@ -128,10 +128,10 @@ You can [see the entire list of shadows][1.0.4] in the table below.
 | Bottom              | `b-$`                              |  1-6   |    70-75    | [View][ex-b]  |
 | Right side          | `r-$`                              |  1-6   |    76-81    | [View][ex-r]  |
 | Left side           | `l-$`                              |  1-6   |    82-87    | [View][ex-l]  |
-| Angle: top left     | `tl-$`                             |  1-6   |    88-93    |     View      |
-| Angle: top right    | `tr-$`                             |  1-6   |    94-99    |     View      |
-| Angle: bottom right | `br-$`                             |  1-6   |   100-105   |     View      |
-| Angle: bottom left  | `bl-$`                             |  1-6   |   106-111   |     View      |
+| Angle: top left     | `tl-$`                             |  1-6   |    88-93    | [View][ex-tl] |
+| Angle: top right    | `tr-$`                             |  1-6   |    94-99    | [View][ex-tr] |
+| Angle: bottom right | `br-$`                             |  1-6   |   100-105   | [View][ex-br] |
+| Angle: bottom left  | `bl-$`                             |  1-6   |   106-111   | [View][ex-bl] |
 | Patterns            | `p-$`                              |  1-2   |   112-115   |     View      |
 
 > **Warning** `Names don't work`  
@@ -212,3 +212,7 @@ vue-box-shadows is licensed under the MIT license. You are free to use, modify a
 [ex-b]: https://codesandbox.io/s/v-b-s-1-0-4-bottom-t7fjxr?file=/src/App.vue
 [ex-r]: https://codesandbox.io/s/v-b-s-1-0-4-right-vjc7f1?file=/src/App.vue
 [ex-l]: https://codesandbox.io/s/v-b-s-1-0-4-left-jz580s?file=/src/App.vue
+[ex-tl]: https://codesandbox.io/s/v-b-s-1-0-4-tl-ir0icl?file=/src/App.vue
+[ex-tr]: https://codesandbox.io/s/v-b-s-1-0-4-tr-mvskqv?file=/src/App.vue
+[ex-br]: https://codesandbox.io/s/v-b-s-1-0-4-br-ktwumh?file=/src/App.vue
+[ex-bl]: https://codesandbox.io/s/v-b-s-1-0-4-bl-g231ml?file=/src/App.vue
