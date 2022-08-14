@@ -121,9 +121,9 @@ You can [see the entire list of shadows][1.0.4] in the table below.
 | Neumorphism         | `neu-$` or `neu-$-i` or `neu-$-io` |  1-3   |    31-39    |     View      |
 | Axis x              | `ax-$`                             |  1-6   |    40-45    | [View][ex-ax] |
 | Axis y              | `ay-$`                             |  1-6   |    46-51    | [View][ex-ay] |
-| Small inner side    | `si-$`                             |  1-4   |    52-55    |     View      |
-| Medium inner side   | `mi-$`                             |  1-4   |    56-59    |     View      |
-| Large inner side    | `li-$`                             |  1-4   |    60-63    |     View      |
+| Small inner side    | `si-$`                             |  1-4   |    52-55    | [View][ex-si] |
+| Medium inner side   | `mi-$`                             |  1-4   |    56-59    | [View][ex-mi] |
+| Large inner side    | `li-$`                             |  1-4   |    60-63    | [View][ex-li] |
 | Top                 | `t-$`                              |  1-6   |    64-69    |     View      |
 | Bottom              | `b-$`                              |  1-6   |    70-75    |     View      |
 | Right side          | `r-$`                              |  1-6   |    76-81    |     View      |
@@ -205,3 +205,6 @@ vue-box-shadows is licensed under the MIT license. You are free to use, modify a
 [ex-bd]: https://codesandbox.io/s/v-b-s-1-0-4-bd-merco1?file=/src/App.vue
 [ex-ax]: https://codesandbox.io/s/v-b-s-1-0-4-axis-x-msdqlx?file=/src/App.vue
 [ex-ay]: https://codesandbox.io/s/v-b-s-1-0-4-axis-y-nzd9gm?file=/src/App.vue
+[ex-si]: https://codesandbox.io/s/v-b-s-1-0-4-si-rppl4t?file=/src/App.vue
+[ex-mi]: https://codesandbox.io/s/v-b-s-1-0-4-mi-pcisfe?file=/src/App.vue
+[ex-li]: https://codesandbox.io/s/v-b-s-1-0-4-li-yu3hf1?file=/src/App.vue
