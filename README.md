@@ -124,10 +124,10 @@ You can [see the entire list of shadows][1.0.4] in the table below.
 | Small inner side    | `si-$`                             |  1-4   |    52-55    | [View][ex-si] |
 | Medium inner side   | `mi-$`                             |  1-4   |    56-59    | [View][ex-mi] |
 | Large inner side    | `li-$`                             |  1-4   |    60-63    | [View][ex-li] |
-| Top                 | `t-$`                              |  1-6   |    64-69    |     View      |
-| Bottom              | `b-$`                              |  1-6   |    70-75    |     View      |
-| Right side          | `r-$`                              |  1-6   |    76-81    |     View      |
-| Left side           | `l-$`                              |  1-6   |    82-87    |     View      |
+| Top                 | `t-$`                              |  1-6   |    64-69    | [View][ex-t]  |
+| Bottom              | `b-$`                              |  1-6   |    70-75    | [View][ex-b]  |
+| Right side          | `r-$`                              |  1-6   |    76-81    | [View][ex-r]  |
+| Left side           | `l-$`                              |  1-6   |    82-87    | [View][ex-l]  |
 | Angle: top left     | `tl-$`                             |  1-6   |    88-93    |     View      |
 | Angle: top right    | `tr-$`                             |  1-6   |    94-99    |     View      |
 | Angle: bottom right | `br-$`                             |  1-6   |   100-105   |     View      |
@@ -208,3 +208,7 @@ vue-box-shadows is licensed under the MIT license. You are free to use, modify a
 [ex-si]: https://codesandbox.io/s/v-b-s-1-0-4-si-rppl4t?file=/src/App.vue
 [ex-mi]: https://codesandbox.io/s/v-b-s-1-0-4-mi-pcisfe?file=/src/App.vue
 [ex-li]: https://codesandbox.io/s/v-b-s-1-0-4-li-yu3hf1?file=/src/App.vue
+[ex-t]: https://codesandbox.io/s/v-b-s-1-0-4-top-wezz49?file=/src/App.vue
+[ex-b]: https://codesandbox.io/s/v-b-s-1-0-4-bottom-t7fjxr?file=/src/App.vue
+[ex-r]: https://codesandbox.io/s/v-b-s-1-0-4-right-vjc7f1?file=/src/App.vue
+[ex-l]: https://codesandbox.io/s/v-b-s-1-0-4-left-jz580s?file=/src/App.vue
