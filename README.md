@@ -115,9 +115,9 @@ You can [see the entire list of shadows][1.0.4] in the table below.
 
 | Group               | Name ($ is value/number)           | Values | Shadow id's |   Examples    |
 | ------------------- | ---------------------------------- | :----: | :---------: | :-----------: |
-| None                | `none`                             |   1    |      0      | [View][ex-el] |
-| Elevation           | `el-$`                             |  1-24  |    1-24     | [View][ex-bd] |
-| Borders             | `bd-$`                             |  1-6   |    25-30    |     View      |
+| None                | `none`                             |   1    |      0      |      ---      |
+| Elevation           | `el-$`                             |  1-24  |    1-24     | [View][ex-el] |
+| Borders             | `bd-$`                             |  1-6   |    25-30    | [View][ex-bd] |
 | Neumorphism         | `neu-$` or `neu-$-i` or `neu-$-io` |  1-3   |    31-39    |     View      |
 | Axis x              | `ax-$`                             |  1-6   |    40-45    |     View      |
 | Axis y              | `ay-$`                             |  1-6   |    46-51    |     View      |
