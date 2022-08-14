@@ -119,8 +119,8 @@ You can [see the entire list of shadows][1.0.4] in the table below.
 | Elevation           | `el-$`                             |  1-24  |    1-24     | [View][ex-el] |
 | Borders             | `bd-$`                             |  1-6   |    25-30    | [View][ex-bd] |
 | Neumorphism         | `neu-$` or `neu-$-i` or `neu-$-io` |  1-3   |    31-39    |     View      |
-| Axis x              | `ax-$`                             |  1-6   |    40-45    |     View      |
-| Axis y              | `ay-$`                             |  1-6   |    46-51    |     View      |
+| Axis x              | `ax-$`                             |  1-6   |    40-45    | [View][ex-ax] |
+| Axis y              | `ay-$`                             |  1-6   |    46-51    | [View][ex-ay] |
 | Small inner side    | `si-$`                             |  1-4   |    52-55    |     View      |
 | Medium inner side   | `mi-$`                             |  1-4   |    56-59    |     View      |
 | Large inner side    | `li-$`                             |  1-4   |    60-63    |     View      |
@@ -201,5 +201,7 @@ vue-box-shadows is licensed under the MIT license. You are free to use, modify a
 
 <!--  -->
 
-[ex-el]: https://codesandbox.io/s/v-b-s-1-0-4-elevation-w22j9h
-[ex-bd]: https://codesandbox.io/s/v-b-s-1-0-4-bd-merco1
+[ex-el]: https://codesandbox.io/s/v-b-s-1-0-4-elevation-w22j9h?file=/src/App.vue
+[ex-bd]: https://codesandbox.io/s/v-b-s-1-0-4-bd-merco1?file=/src/App.vue
+[ex-ax]: https://codesandbox.io/s/v-b-s-1-0-4-axis-x-msdqlx?file=/src/App.vue
+[ex-ay]: https://codesandbox.io/s/v-b-s-1-0-4-axis-y-nzd9gm?file=/src/App.vue
