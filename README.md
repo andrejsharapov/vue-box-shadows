@@ -113,26 +113,26 @@ An example of using the v0.0.2 directive on [CodeSandbox][codesandbox-02] :green
 In release v1.0.4, shadows have been grouped and sorted.  
 You can [see the entire list of shadows][1.0.4] in the table below.
 
-| Group               | Name ($ is value/number)           | Values | Shadow id's |   Examples    |
-| ------------------- | ---------------------------------- | :----: | :---------: | :-----------: |
-| None                | `none`                             |   1    |      0      |      ---      |
-| Elevation           | `el-$`                             |  1-24  |    1-24     | [View][ex-el] |
-| Borders             | `bd-$`                             |  1-6   |    25-30    | [View][ex-bd] |
-| Neumorphism         | `neu-$` or `neu-$-i` or `neu-$-io` |  1-3   |    31-39    |     View      |
-| Axis x              | `ax-$`                             |  1-6   |    40-45    | [View][ex-ax] |
-| Axis y              | `ay-$`                             |  1-6   |    46-51    | [View][ex-ay] |
-| Small inner side    | `si-$`                             |  1-4   |    52-55    | [View][ex-si] |
-| Medium inner side   | `mi-$`                             |  1-4   |    56-59    | [View][ex-mi] |
-| Large inner side    | `li-$`                             |  1-4   |    60-63    | [View][ex-li] |
-| Top                 | `t-$`                              |  1-6   |    64-69    | [View][ex-t]  |
-| Bottom              | `b-$`                              |  1-6   |    70-75    | [View][ex-b]  |
-| Right side          | `r-$`                              |  1-6   |    76-81    | [View][ex-r]  |
-| Left side           | `l-$`                              |  1-6   |    82-87    | [View][ex-l]  |
-| Angle: top left     | `tl-$`                             |  1-6   |    88-93    | [View][ex-tl] |
-| Angle: top right    | `tr-$`                             |  1-6   |    94-99    | [View][ex-tr] |
-| Angle: bottom right | `br-$`                             |  1-6   |   100-105   | [View][ex-br] |
-| Angle: bottom left  | `bl-$`                             |  1-6   |   106-111   | [View][ex-bl] |
-| Patterns            | `p-$`                              |  1-2   |   112-115   |     View      |
+| Group               | Name ($ is value/number)           | Values | Shadow id's |    Examples    |
+| ------------------- | ---------------------------------- | :----: | :---------: | :------------: |
+| None                | `none`                             |   1    |      0      |      ---       |
+| Elevation           | `el-$`                             |  1-24  |    1-24     | [View][ex-el]  |
+| Borders             | `bd-$`                             |  1-6   |    25-30    | [View][ex-bd]  |
+| Neumorphism         | `neu-$` or `neu-$-i` or `neu-$-io` |  1-3   |    31-39    | [View][ex-neu] |
+| Axis x              | `ax-$`                             |  1-6   |    40-45    | [View][ex-ax]  |
+| Axis y              | `ay-$`                             |  1-6   |    46-51    | [View][ex-ay]  |
+| Small inner side    | `si-$`                             |  1-4   |    52-55    | [View][ex-si]  |
+| Medium inner side   | `mi-$`                             |  1-4   |    56-59    | [View][ex-mi]  |
+| Large inner side    | `li-$`                             |  1-4   |    60-63    | [View][ex-li]  |
+| Top                 | `t-$`                              |  1-6   |    64-69    |  [View][ex-t]  |
+| Bottom              | `b-$`                              |  1-6   |    70-75    |  [View][ex-b]  |
+| Right side          | `r-$`                              |  1-6   |    76-81    |  [View][ex-r]  |
+| Left side           | `l-$`                              |  1-6   |    82-87    |  [View][ex-l]  |
+| Angle: top left     | `tl-$`                             |  1-6   |    88-93    | [View][ex-tl]  |
+| Angle: top right    | `tr-$`                             |  1-6   |    94-99    | [View][ex-tr]  |
+| Angle: bottom right | `br-$`                             |  1-6   |   100-105   | [View][ex-br]  |
+| Angle: bottom left  | `bl-$`                             |  1-6   |   106-111   | [View][ex-bl]  |
+| Patterns            | `p-$`                              |  1-2   |   112-115   |      View      |
 
 > **Warning** `Names don't work`  
 > In the v2.0.0 release, you will be able to use these names in the directive instead of numbers.  
@@ -203,6 +203,7 @@ vue-box-shadows is licensed under the MIT license. You are free to use, modify a
 
 [ex-el]: https://codesandbox.io/s/v-b-s-1-0-4-elevation-w22j9h?file=/src/App.vue
 [ex-bd]: https://codesandbox.io/s/v-b-s-1-0-4-bd-merco1?file=/src/App.vue
+[ex-neu]: https://codesandbox.io/s/v-b-s-1-0-4-neumorphism-0pnb12?file=/src/App.vu
 [ex-ax]: https://codesandbox.io/s/v-b-s-1-0-4-axis-x-msdqlx?file=/src/App.vue
 [ex-ay]: https://codesandbox.io/s/v-b-s-1-0-4-axis-y-nzd9gm?file=/src/App.vue
 [ex-si]: https://codesandbox.io/s/v-b-s-1-0-4-si-rppl4t?file=/src/App.vue
