@@ -19,6 +19,30 @@ Collection of CSS box-shadows for every taste contains [more than 100](#groups) 
 <img alt="vue-box-shadows" width="128" height="128" src="https://raw.githubusercontent.com/andrejsharapov/vue-box-shadows/master/src/logo.png">
 </p>
 
+## Fully compatible with
+
+<p align="center">
+  <a target="_blank" title="" href="https://github.com/vuejs/vue-cli">
+    <img width="65" alt="vuejs" src="https://cli.vuejs.org/favicon.png">
+  </a>
+  <a target="_blank" title="" href="https://github.com/bootstrap-vue/bootstrap-vue">
+    <img width="75" alt="bootstrap-vue" src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo.svg">
+  </a>
+  <a target="_blank" title="" href="https://github.com/tailwindlabs/tailwindcss">
+    <img width="90" alt="tailwindcss" src="https://tailwindcss.com/_next/static/media/tailwindcss-mark.79614a5f61617ba49a0891494521226b.svg">
+  </a>
+  <a target="_blank" title="" href="https://github.com/vuetifyjs/vuetify">
+    <img width="75" alt="vuetifyjs" src="https://cdn.vuetifyjs.com/images/logos/logo.svg">
+  </a>
+  <a target="_blank" title="" href="https://github.com/buefy/buefy">
+    <img height="60" alt="buefy" src="https://buefy.org/static/img/buefy.1d65c18.png">
+  </a>
+  <a target="_blank" title="" href="https://github.com/nuxt/nuxt.js">
+    <img height="75" alt="nuxtjs" src="https://nuxtjs.org/design-kit/colored-logo.svg">
+  </a>
+  and others...
+</p>
+
 ## Install
 
 ```bash
@@ -158,15 +182,12 @@ vue-box-shadows is licensed under the MIT license. You are free to use, modify a
 
 [bsh-repo]: https://github.com/madeas/box-shadows.css
 [caniuse]: https://caniuse.com/?search=box-shadow
-[codesandbox-01]: https://codesandbox.io/s/vue-box-shadows-0-0-1-ukvpi1
-[codesandbox-02]: https://codesandbox.io/s/vue-box-shadows-0-0-2-j5fx1i
 [1.0.4]: https://codesandbox.io/s/vue-box-shadows-1-0-4-mrjlvt
 
 <!--  -->
 
 [docs]: https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow
 [contributing]: https://github.com/andrejsharapov/vue-box-shadows/blob/master/CONTRIBUTING.md
-[testing]: https://github.com/andrejsharapov/vue-box-shadows/discussions/8
 [bugs]: https://github.com/andrejsharapov/vue-box-shadows/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3ABugfix
 [bug-report]: https://github.com/andrejsharapov/vue-box-shadows/issues/new?labels=Bug+report&template=bug_report.md+
 
