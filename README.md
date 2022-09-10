@@ -55,10 +55,6 @@ $ yarn add vue-box-shadows
 
 To create a basic shadow element with minimal configuration, write the following:
 
-[Vue CLI](#vue-cli) | [Nuxt](#nuxtjs-global-registration)
-
-### Vue CLI
-
 ```html
 <div v-box-shadow>
   Add beautiful shadow effects to your project without thinking about CSS.
@@ -75,36 +71,20 @@ Vue.use(vueBoxShadows, {
 });
 ```
 
-### Nuxt.js: Global Registration
+To use shadows, pay attention to the **numbers** and short **names** in the [group](#groups) table. They are used in different ways:
 
-Create plugin _/plugins/vue-box-shadows.js_
-
-```js
-import Vue from "vue";
-import vueBoxShadows from "vue-box-shadows";
-
-Vue.use(vueBoxShadows);
-```
-
-Add to _nuxt.config.js_
-
-```js
-export default {
-  plugins: [{ src: "~/plugins/vue-box-shadows" }],
-};
-```
-
-Usage in _index.vue_
-
-```js
+```html
 <template>
-   <div
-      v-for="(item, index) in items"
-      :key="index"
-      v-box-shadow="item"
-    >
-      {{ item }}
-    </div>
+  <!-- use id -->
+  <div class="list-item" v-box-shadow="34"></div>
+
+  <!-- use name -->
+  <div class="list-item" v-box-shadow:neu-2></div>
+
+  <!-- using id shadows in a loop with variables -->
+  <div v-for="(id, index) in items" :key="index" v-box-shadow="id">
+    {{ id }}
+  </div>
 </template>
 
 <script>
@@ -115,8 +95,6 @@ Usage in _index.vue_
   };
 </script>
 ```
-
-[![Edit Vue Box-shadows, Nuxt2 and TailwindCSS](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/vue-box-shadows-nuxt2-and-tailwindcss-db9968?fontsize=14&hidenavigation=1&theme=dark)
 
 ## Options
 
@@ -129,33 +107,28 @@ Usage in _index.vue_
 
 ## Groups
 
-In release v1.0.4, shadows have been grouped and sorted.  
 You can [see the entire list of shadows][1.0.4] in the table below.
 
-| Group               | Name ($ is value/number)           | Values | Shadow id's |    Examples    |
-| ------------------- | ---------------------------------- | :----: | :---------: | :------------: |
-| None                | `none`                             |   1    |      0      |      ---       |
-| Elevation           | `el-$`                             |  1-24  |    1-24     | [View][ex-el]  |
-| Borders             | `bd-$`                             |  1-6   |    25-30    | [View][ex-bd]  |
-| Neumorphism         | `neu-$` or `neu-$-i` or `neu-$-io` |  1-3   |    31-39    | [View][ex-neu] |
-| Axis x              | `ax-$`                             |  1-6   |    40-45    | [View][ex-ax]  |
-| Axis y              | `ay-$`                             |  1-6   |    46-51    | [View][ex-ay]  |
-| Small inner side    | `si-$`                             |  1-4   |    52-55    | [View][ex-si]  |
-| Medium inner side   | `mi-$`                             |  1-4   |    56-59    | [View][ex-mi]  |
-| Large inner side    | `li-$`                             |  1-4   |    60-63    | [View][ex-li]  |
-| Top                 | `t-$`                              |  1-6   |    64-69    |  [View][ex-t]  |
-| Bottom              | `b-$`                              |  1-6   |    70-75    |  [View][ex-b]  |
-| Right side          | `r-$`                              |  1-6   |    76-81    |  [View][ex-r]  |
-| Left side           | `l-$`                              |  1-6   |    82-87    |  [View][ex-l]  |
-| Angle: top left     | `tl-$`                             |  1-6   |    88-93    | [View][ex-tl]  |
-| Angle: top right    | `tr-$`                             |  1-6   |    94-99    | [View][ex-tr]  |
-| Angle: bottom right | `br-$`                             |  1-6   |   100-105   | [View][ex-br]  |
-| Angle: bottom left  | `bl-$`                             |  1-6   |   106-111   | [View][ex-bl]  |
-| Patterns            | `p-$`                              |  1-2   |   112-115   |      View      |
-
-> **Warning** `Names don't work`  
-> In the v2.0.0 release, you will be able to use these names in the directive instead of numbers.  
-> **They are currently unavailable.**
+| Group               |   Id    | Names ($ is value/number)          | Values |    Examples    |
+| ------------------- | :-----: | ---------------------------------- | :----: | :------------: |
+| None                |    0    | `none`                             |   1    |      ---       |
+| Elevation           |  1-24   | `el-$`                             |  1-24  | [View][ex-el]  |
+| Borders             |  25-30  | `bd-$`                             |  1-6   | [View][ex-bd]  |
+| Neumorphism         |  31-39  | `neu-$` or `neu-$-i` or `neu-$-io` |  1-3   | [View][ex-neu] |
+| Axis x              |  40-45  | `ax-$`                             |  1-6   | [View][ex-ax]  |
+| Axis y              |  46-51  | `ay-$`                             |  1-6   | [View][ex-ay]  |
+| Small inner side    |  52-55  | `si-$`                             |  1-4   | [View][ex-si]  |
+| Medium inner side   |  56-59  | `mi-$`                             |  1-4   | [View][ex-mi]  |
+| Large inner side    |  60-63  | `li-$`                             |  1-4   | [View][ex-li]  |
+| Top                 |  64-69  | `t-$`                              |  1-6   |  [View][ex-t]  |
+| Bottom              |  70-75  | `b-$`                              |  1-6   |  [View][ex-b]  |
+| Right side          |  76-81  | `r-$`                              |  1-6   |  [View][ex-r]  |
+| Left side           |  82-87  | `l-$`                              |  1-6   |  [View][ex-l]  |
+| Angle: top left     |  88-93  | `tl-$`                             |  1-6   | [View][ex-tl]  |
+| Angle: top right    |  94-99  | `tr-$`                             |  1-6   | [View][ex-tr]  |
+| Angle: bottom right | 100-105 | `br-$`                             |  1-6   | [View][ex-br]  |
+| Angle: bottom left  | 106-111 | `bl-$`                             |  1-6   | [View][ex-bl]  |
+| Patterns            | 112-115 | `p-$`                              |  1-2   |      ---       |
 
 ### Browser compatibility
 
