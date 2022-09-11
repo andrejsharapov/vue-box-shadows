@@ -82,7 +82,7 @@ To create a basic shadow element with minimal configuration, write the following
 
 To use collection shadows, you need to apply **ids** or short **names** from the [groups](#groups) table.
 
-> **Warning**  
+> **Note**  
 > Note that ids and names are used differently:
 
 ```html
