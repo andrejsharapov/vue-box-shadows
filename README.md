@@ -1,6 +1,6 @@
 # Vue Box-shadows
 
-Collection of CSS box-shadows for every taste contains [more than 100](#groups) simple, beautiful and airy shadows. Add beautiful shadow effects to your Vue project without thinking about CSS. Some shadows are borrowed from the collection of [box-shadow.css][bsh-repo].
+Collection of CSS box-shadows for every taste contains [more than 100](#groups) simple, beautiful and airy shadows. Add beautiful shadow effects to your Vue project without thinking about CSS.
 
 ---
 
@@ -56,37 +56,28 @@ $ yarn add vue-box-shadows
 To create a basic shadow element with minimal configuration, write the following:
 
 ```html
-<div v-box-shadow>
-  Add beautiful shadow effects to your project without thinking about CSS.
-  Properties are supported by all modern browsers.
-</div>
-```
+<script>
+  import Vue from "vue";
+  import vueBoxShadows from "vue-box-shadows";
 
-```js
-import Vue from "vue";
-import vueBoxShadows from "vue-box-shadows";
+  Vue.use(vueBoxShadows, {
+    // options
+  });
 
-Vue.use(vueBoxShadows, {
-  // options
-});
-```
+  export default {};
+</script>
 
-To use shadows, pay attention to the **numbers** and short **names** in the [group](#groups) table. They are used in different ways:
-
-```html
 <template>
-  <!-- use id -->
-  <div class="list-item" v-box-shadow="34"></div>
-
-  <!-- use name -->
-  <div class="list-item" v-box-shadow:neu-2></div>
-
-  <!-- using id shadows in a loop with variables -->
-  <div v-for="(id, index) in items" :key="index" v-box-shadow="id">
-    {{ id }}
+  <div v-box-shadow>
+    Add beautiful shadow effects to your project without thinking about CSS.
+    Properties are supported by all modern browsers.
   </div>
 </template>
+```
 
+To use collection shadows, you need to apply **Id** and short **names** in the [groups](#groups) table. Note that they are used in different ways:
+
+```html
 <script>
   export default {
     data: () => ({
@@ -94,20 +85,26 @@ To use shadows, pay attention to the **numbers** and short **names** in the [gro
     }),
   };
 </script>
+
+<template>
+  <!-- use name -->
+  <div v-box-shadow:neu-2></div>
+
+  <!-- or -->
+
+  <!--  use id -->
+  <div v-box-shadow="34"></div>
+
+  <!-- use shadow ids in a loop -->
+  <div v-for="(item, index) in items" :key="index" v-box-shadow="item">
+    {{ item }}
+  </div>
+</template>
 ```
-
-## Options
-
-| Option           | Type    | Default                          | Description                                                          |
-| ---------------- | ------- | -------------------------------- | -------------------------------------------------------------------- |
-| useClass         | Boolean | false                            | Set to `true` in order to import styles into `<head>` automatically. |
-| shadowBaseCustom | String  | "0 2px 8px 0 rgb(50 50 50 / 8%)" | Set a value for [`box-shadow`][docs] to change the default property. |
-
----
 
 ## Groups
 
-You can [see the entire list of shadows][1.0.4] in the table below.
+The entire list of shadows can be viewed **[here][1.0.4]** or separately in the table below.
 
 | Group               |   Id    | Names ($ is value/number)          | Values |    Examples    |
 | ------------------- | :-----: | ---------------------------------- | :----: | :------------: |
@@ -130,6 +127,13 @@ You can [see the entire list of shadows][1.0.4] in the table below.
 | Angle: bottom left  | 106-111 | `bl-$`                             |  1-6   | [View][ex-bl]  |
 | Patterns            | 112-115 | `p-$`                              |  1-2   |      ---       |
 
+## Options
+
+| Option           | Type    | Default                          | Description                                                          |
+| ---------------- | ------- | -------------------------------- | -------------------------------------------------------------------- |
+| useClass         | Boolean | false                            | Set to `true` in order to import styles into `<head>` automatically. |
+| shadowBaseCustom | String  | "0 2px 8px 0 rgb(50 50 50 / 8%)" | Set a value for [`box-shadow`][docs] to change the default property. |
+
 ### Browser compatibility
 
 Properties are supported by all modern browsers. You can find out about browser support for earlier versions on the [Can I Use][caniuse] site.
@@ -138,7 +142,7 @@ Properties are supported by all modern browsers. You can find out about browser 
 
 Feedback, bug reports, and pull requests are welcome. Read the detailed information about contributions in the [CONTRIBUTING.md][contributing] file.
 
-> **Note** `Bug reporting`  
+> **Note** `Bug reporting`
 > If you find a bug and would like to [report it][bug-report], please make sure the request is not on the [list of known issues][bugs].
 
 ## License
@@ -147,48 +151,57 @@ vue-box-shadows is licensed under the MIT license. You are free to use, modify a
 
 ---
 
-[Installing](#install) · [Usage](#how-to-use) · [Options](#options) · [Groups](#groups)
+[Installing](#install) · [Usage](#how-to-use) · [Groups](#groups) · [Options](#options)
 
 <p align="right">
 <a href="#vue-box-shadows">Return to top</a>
 </p>
 
-[bsh-repo]: https://github.com/madeas/box-shadows.css
-[caniuse]: https://caniuse.com/?search=box-shadow
+<!-- Repo -->
+
 [1.0.4]: https://codesandbox.io/s/vue-box-shadows-1-0-4-mrjlvt
+[docs]: https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow
+[bugs]: https://github.com/andrejsharapov/vue-box-shadows/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3ABugfix
+[bug-report]: https://github.com/andrejsharapov/vue-box-shadows/issues/new?labels=Bug+report&template=bug_report.md+
 
 <!--  -->
 
-[docs]: https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow
+[npm]: https://www.npmjs.com/package/vue-box-shadows
+[npm-img]: https://img.shields.io/npm/v/vue-box-shadows?color=c53635
+
+<!--  -->
+
+[download]: https://npm-stat.com/charts.html?package=vue-box-shadows
+[download-img]: https://img.shields.io/npm/dm/vue-box-shadows.svg
+
+<!--  -->
+
+[license]: https://github.com/andrejsharapov/vue-box-shadows/blob/master/LICENSE
+[license-img]: https://img.shields.io/github/license/andrejsharapov/vue-box-shadows.svg
+
+<!--  -->
+
+[issues]: https://github.com/andrejsharapov/vue-box-shadows/issues/
+[issues-img]: https://img.shields.io/github/issues/andrejsharapov/vue-box-shadows.svg
+
+<!--  -->
+
 [contributing]: https://github.com/andrejsharapov/vue-box-shadows/blob/master/CONTRIBUTING.md
-[bugs]: https://github.com/andrejsharapov/vue-box-shadows/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3ABugfix
-[bug-report]: https://github.com/andrejsharapov/vue-box-shadows/issues/new?labels=Bug+report&template=bug_report.md+
+[contributors]: https://github.com/andrejsharapov/vue-box-shadows/graphs/contributors/
+[contributors-img]: https://img.shields.io/github/contributors/andrejsharapov/vue-box-shadows?color=fd7e17
 
 <!--  -->
 
 [discord]: https://discord.gg/XtT4Hdf3
 [discord-img]: https://img.shields.io/badge/discord-channel-5865f2.svg
 
-<!--  -->
-
-[npm]: https://www.npmjs.com/package/vue-box-shadows
-[npm-img]: https://img.shields.io/npm/v/vue-box-shadows?color=c53635
-[download]: https://npm-stat.com/charts.html?package=vue-box-shadows
-[download-img]: https://img.shields.io/npm/dm/vue-box-shadows.svg
-[license]: https://github.com/andrejsharapov/vue-box-shadows/blob/master/LICENSE
-[license-img]: https://img.shields.io/github/license/andrejsharapov/vue-box-shadows.svg
-[issues]: https://github.com/andrejsharapov/vue-box-shadows/issues/
-[issues-img]: https://img.shields.io/github/issues/andrejsharapov/vue-box-shadows.svg
-[contributors]: https://github.com/andrejsharapov/vue-box-shadows/graphs/contributors/
-[contributors-img]: https://img.shields.io/github/contributors/andrejsharapov/vue-box-shadows?color=fd7e17
-
-<!--  -->
+<!-- GitHub buttons -->
 
 [watchers]: https://github.com/andrejsharapov/vue-box-shadows/watchers/
 [forks]: https://github.com/andrejsharapov/vue-box-shadows/network/
 [stars]: https://github.com/andrejsharapov/vue-box-shadows/stargazers/
 
-<!--  -->
+<!--Examples  -->
 
 [ex-el]: https://codesandbox.io/s/v-b-s-1-0-4-elevation-w22j9h?file=/src/App.vue
 [ex-bd]: https://codesandbox.io/s/v-b-s-1-0-4-bd-merco1?file=/src/App.vue
@@ -206,3 +219,7 @@ vue-box-shadows is licensed under the MIT license. You are free to use, modify a
 [ex-tr]: https://codesandbox.io/s/v-b-s-1-0-4-tr-mvskqv?file=/src/App.vue
 [ex-br]: https://codesandbox.io/s/v-b-s-1-0-4-br-ktwumh?file=/src/App.vue
 [ex-bl]: https://codesandbox.io/s/v-b-s-1-0-4-bl-g231ml?file=/src/App.vue
+
+<!-- Other -->
+
+[caniuse]: https://caniuse.com/?search=box-shadow
