@@ -19,7 +19,9 @@ Collection of CSS box-shadows for every taste contains [more than 100](#groups) 
 <img alt="vue-box-shadows" width="128" height="128" src="https://raw.githubusercontent.com/andrejsharapov/vue-box-shadows/master/src/logo.png">
 </p>
 
-## Fully compatible with
+<p align="center">
+Fully compatible with
+</p>
 
 <p align="center">
   <a target="_blank" title="" href="https://github.com/vuejs/vue-cli">
@@ -40,6 +42,9 @@ Collection of CSS box-shadows for every taste contains [more than 100](#groups) 
   <a target="_blank" title="" href="https://github.com/nuxt/nuxt.js">
     <img height="75" alt="nuxtjs" src="https://nuxtjs.org/design-kit/colored-logo.svg">
   </a>
+</p>
+
+<p align="center">
   and others...
 </p>
 
@@ -75,7 +80,10 @@ To create a basic shadow element with minimal configuration, write the following
 </template>
 ```
 
-To use collection shadows, you need to apply **Id** and short **names** in the [groups](#groups) table. Note that they are used in different ways:
+To use collection shadows, you need to apply **ids** or short **names** from the [groups](#groups) table.
+
+> **Note**  
+> Note that ids and names are used differently:
 
 ```html
 <script>
@@ -142,7 +150,7 @@ Properties are supported by all modern browsers. You can find out about browser 
 
 Feedback, bug reports, and pull requests are welcome. Read the detailed information about contributions in the [CONTRIBUTING.md][contributing] file.
 
-> **Note** `Bug reporting`
+> **Note** `Bug reporting`  
 > If you find a bug and would like to [report it][bug-report], please make sure the request is not on the [list of known issues][bugs].
 
 ## License
