@@ -54,25 +54,35 @@ const baseBoxShadow = (el) => {
 };
 
 const numShadows = (el, bindings) => {
-  let num = parseInt(bindings.value);
+  let name = bindings.arg;
+  let num = bindings.value;
 
-  if (isNaN(num)) {
-    return;
-  } else if (num !== el[currentValue]) {
-    el[currentValue] = num;
+  if (name) {
+    const getElName = collection.find((el) => el.name === name);
+    const setElStyle = {
+      prop: "--box-shadow",
+      val: baseBoxShadow(getElName),
+    };
 
-    if (!bindings) {
-      console.warn("bindings is not found");
-    } else {
-      const list = collection;
+    el.style.setProperty(setElStyle.prop, setElStyle.val);
+    el.setAttribute("data-shadow", name);
+  } else {
+    if (isNaN(num)) {
+      return;
+    } else if (num !== el[currentValue]) {
+      el[currentValue] = num;
 
-      const newStyle = {
-        prop: "--box-shadow",
-        val: baseBoxShadow(list[num]),
-      };
+      if (!bindings) {
+        console.warn("bindings is not found");
+      } else {
+        const setElStyle = {
+          prop: "--box-shadow",
+          val: baseBoxShadow(collection[num]),
+        };
 
-      el.style.setProperty(newStyle.prop, newStyle.val);
-      el.setAttribute("data-shadow", num);
+        el.style.setProperty(setElStyle.prop, setElStyle.val);
+        el.setAttribute("data-shadow", num);
+      }
     }
   }
 };

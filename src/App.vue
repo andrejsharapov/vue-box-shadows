@@ -9,6 +9,10 @@
         Add beautiful shadow effects to your project without thinking about CSS.
       </p>
 
+      <div class="list-item" v-box-shadow:neu-2></div>
+
+      <br />
+
       <div class="list">
         <div
           v-for="(item, index) in items"
