@@ -1,14 +1,12 @@
-import Vue from "vue";
+import { createApp } from "vue";
 import App from "./App.vue";
 import vueBoxShadows from "./index";
 
-Vue.use(vueBoxShadows, {
+const app = createApp(App);
+
+app.use(vueBoxShadows, {
   // useClass: true,
   // shadowBaseCustom: "",
 });
 
-Vue.config.productionTip = false;
-
-new Vue({
-  render: (h) => h(App),
-}).$mount("#app");
+app.mount("#app");

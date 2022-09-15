@@ -2,23 +2,26 @@
   "name": "vue-box-shadows",
   "version": "2.0.1",
   "private": false,
+  "description": "Collection of CSS box-shadows for every taste contains more than 100 simple, beautiful and airy shadows.",
+  "author": "Andrej Sharapov",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
+  "main": "src/index.js",
   "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
     "@vue/cli-plugin-babel": "~5.0.8",
-    "@vue/cli-plugin-eslint": "~4.5.19",
+    "@vue/cli-plugin-eslint": "~5.0.8",
     "@vue/cli-service": "~5.0.8",
-    "babel-eslint": "^10.1.0",
+    "@vue/compiler-sfc": "^3.2.39",
     "core-js": "^3.23.5",
-    "eslint": "^6.8.0",
-    "eslint-plugin-vue": "^6.2.2",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
     "pug": "^3.0.2",
-    "pug-plain-loader": "^1.1.0",
-    "vue": "^2.7.7",
-    "vue-template-compiler": "^2.7.7"
+    "pug-plain-loader": "^1.1.0"
   },
   "eslintConfig": {
     "root": true,
@@ -30,7 +33,7 @@
       "eslint:recommended"
     ],
     "parserOptions": {
-      "parser": "babel-eslint"
+      "parser": "@babel/eslint-parser"
     },
     "rules": {}
   },
@@ -39,21 +42,22 @@
     "last 2 versions",
     "not dead"
   ],
-  "description": "Collection of CSS box-shadows for every taste contains more than 100 simple, beautiful and airy shadows.",
-  "main": "src/index.js",
-  "author": "Andrej Sharapov",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/andrejsharapov/vue-box-shadows.git"
+  "bugs": {
+    "url": "https://github.com/andrejsharapov/vue-box-shadows/issues"
   },
+  "homepage": "https://github.com/andrejsharapov/vue-box-shadows#readme",
   "keywords": [
     "vue",
     "css",
     "box-shadow"
   ],
-  "bugs": {
-    "url": "https://github.com/andrejsharapov/vue-box-shadows/issues"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrejsharapov/vue-box-shadows.git"
   },
-  "homepage": "https://github.com/andrejsharapov/vue-box-shadows#readme"
+  "dependencies": {
+    "@vue/compat": "^3.2.39",
+    "vue": "^3.2.39"
+  }
 }
