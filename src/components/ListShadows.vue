@@ -1,33 +1,30 @@
-<template>
-  <div>
-    <!-- ANCHOR use shadow name -->
-    <div class="list">
-      <div class="list-item" v-box-shadow:neu-2></div>
-    </div>
+<template lang="pug">
+div
+  //- ANCHOR use shadow name
+  .list
+    .list-item(v-box-shadow:l-4)
+    .list-item(v-box-shadow:ay-6)
+    .list-item(v-box-shadow:r-4)
+  
+  br
 
-    <br />
-
-    <!-- ANCHOR use shadow id -->
-    <div class="list">
-      <div
-        v-for="(item, index) in items"
-        :key="index"
-        v-box-shadow="item.id"
-        class="list-item"
-        :class="{ 'no-name': !item.name }"
-      >
-        <small>id: {{ item.id }}</small>
-        <div>{{ item.name }}</div>
-      </div>
-    </div>
-  </div>
+  //- ANCHOR use shadow id
+  .list
+    .list-item(
+      v-for="(item, index) in items"
+      :key="index"
+      v-box-shadow="item.id"
+      :class="{ 'no-name': !item.name }"
+    )
+      small id: {{ item.id }}
+      div {{ item.name }}
 </template>
 
 <script>
 import { collection } from "@/shadows";
 
 export default {
-  name: "Shadows",
+  name: "ListShadows",
   data: () => ({
     items: collection,
   }),

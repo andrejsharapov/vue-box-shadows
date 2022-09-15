@@ -1,16 +1,13 @@
-<template>
-  <div id="app">
-    <div class="container">
-      <h1 class="message">
-        {{ package.title }}
-        <strong>for <span>Vue</span></strong>
-      </h1>
-      <p>
-        {{ package.desc }}
-      </p>
-      <ListShadows />
-    </div>
-  </div>
+<template lang="pug">
+#app
+  .container
+    h1.message {{ package.title }}
+      strong for 
+        span Vue
+    
+    p {{ package.desc }}
+    
+    ListShadows
 </template>
 
 <script>
