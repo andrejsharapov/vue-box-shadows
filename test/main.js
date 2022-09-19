@@ -1,6 +1,6 @@
 import Vue from "vue";
 import App from "./App";
-import vueBoxShadows from "./index";
+import vueBoxShadows from "@/index";
 
 Vue.use(vueBoxShadows, {
   // useClass: true,

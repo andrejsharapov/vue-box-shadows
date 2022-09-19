@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "refresh": "rm -rf dist/ && yarn build"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~5.0.8",
@@ -17,6 +18,8 @@
     "eslint-plugin-vue": "^6.2.2",
     "pug": "^3.0.2",
     "pug-plain-loader": "^1.1.0",
+    "sass": "^1.54.9",
+    "sass-loader": "^13.0.2",
     "vue": "^2.7.7",
     "vue-template-compiler": "^2.7.7"
   },
@@ -40,7 +43,7 @@
     "not dead"
   ],
   "description": "Collection of CSS box-shadows for every taste contains more than 100 simple, beautiful and airy shadows.",
-  "main": "src/index.js",
+  "main": "dist/app.js",
   "author": "Andrej Sharapov",
   "license": "MIT",
   "repository": {
@@ -55,5 +58,6 @@
   "bugs": {
     "url": "https://github.com/andrejsharapov/vue-box-shadows/issues"
   },
-  "homepage": "https://github.com/andrejsharapov/vue-box-shadows#readme"
+  "homepage": "https://github.com/andrejsharapov/vue-box-shadows#readme",
+  "dependencies": {}
 }

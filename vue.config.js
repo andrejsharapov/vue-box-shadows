@@ -12,11 +12,13 @@ module.exports = defineConfig({
   chainWebpack: (config) => {
     // alias
     config.resolve.alias.set("@", path.resolve(__dirname, "src/"));
+    config.resolve.alias.set("~", path.resolve(__dirname, "test/"));
 
     // process.env
     if (process.env.NODE_ENV == "production") {
       VUE_APP_TITLE = require("./package.json").name;
-      // } else {
+    } else {
+      config.entry("app").clear().add("./test/main.js").end();
     }
   },
 
@@ -25,5 +27,11 @@ module.exports = defineConfig({
     __dirname,
     process.env.NODE_ENV === "production" ? "dist/" : "/"
   ),
+  configureWebpack: {
+    output: {
+      filename: "[name].js",
+      chunkFilename: "[name].js",
+    },
+  },
   productionSourceMap: false,
 });
