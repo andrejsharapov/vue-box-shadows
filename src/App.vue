@@ -2,7 +2,9 @@
 #app
   .container
     h1.message {{ package.title }}
-      strong for 
+      strong
+        | 
+        | for 
         span Vue
     
     p {{ package.desc }}
@@ -57,6 +59,7 @@ body {
   max-width: 86vw;
   margin: auto;
   padding: calc(var(--base-size) * 6);
+  text-align: center;
 }
 
 .message {
