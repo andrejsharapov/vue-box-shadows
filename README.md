@@ -48,6 +48,10 @@ Fully compatible with
   and others...
 </p>
 
+> **Note**  
+> You are reading the documentation for vue-box-shadows on vue 2.  
+> Documentation for vue-box-shadows for vue 3 is [here](https://github.com/andrejsharapov/vue3-box-shadows).
+
 ## Install
 
 ```bash
