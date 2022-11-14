@@ -21,7 +21,7 @@ div
 </template>
 
 <script>
-import { collection } from "@/shadows";
+import { collection } from "../../shadows";
 
 export default {
   name: "ListShadows",
