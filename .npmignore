@@ -1,0 +1,18 @@
+# Tests and development
+__tests__/
+/dist
+node_modules/
+public/
+src/
+.env*
+
+# Github workspace
+.github/
+
+# Editor directories and files
+.idea
+.vscode/
+
+# Other files
+.markdownlint.yml
+*?config?*
