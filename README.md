@@ -179,17 +179,17 @@ vue-box-shadows is licensed under the MIT license. You are free to use, modify a
 <!--  -->
 
 [npm]: https://www.npmjs.com/package/vue-box-shadows
-[npm-img]: https://img.shields.io/npm/v/vue-box-shadows?color=c53635
+[npm-img]: https://img.shields.io/npm/v/vue-box-shadows?label=npm%40latest&color=c53635
 
 <!--  -->
 
 [download]: https://npm-stat.com/charts.html?package=vue-box-shadows
-[download-img]: https://img.shields.io/npm/dm/vue-box-shadows.svg
+[download-img]: https://img.shields.io/npm/dw/vue-box-shadows
 
 <!--  -->
 
 [license]: https://github.com/andrejsharapov/vue-box-shadows/blob/master/LICENSE
-[license-img]: https://img.shields.io/github/license/andrejsharapov/vue-box-shadows.svg
+[license-img]: https://img.shields.io/github/license/andrejsharapov/vue-box-shadows?color=23a7f2
 
 <!--  -->
 
