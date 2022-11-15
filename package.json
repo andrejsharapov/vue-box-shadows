@@ -1,6 +1,6 @@
 {
   "name": "vue-box-shadows",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "private": false,
   "description": "Collection of CSS box-shadows for every taste contains more than 100 simple, beautiful and airy shadows.",
   "main": "index.js",
