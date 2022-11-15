@@ -5,6 +5,7 @@ node_modules/
 public/
 src/
 .env*
+.markdownlint.json
 
 # Github workspace
 .github/
